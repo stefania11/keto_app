@@ -41,11 +41,8 @@ Based on the analyzed Scratch blocks, the fine-tuned model provided the followin
 
 The model's response provides a comprehensive set of suggestions to enhance the Scratch project, focusing on movement, collision detection, and visual style.
 
-## API Response for Image Description
-Based on the Scratch blocks you provided:
-1. The `move` block: It moves the sprite a specified number of steps (in this case, 10 steps).
-2. The `turn` block: It rotates the sprite a specific number of degrees (in this case, 15 degrees) in a specified direction (in this case, clockwise).
+## Updated Model Evaluation Results
+- **Accuracy:** 0.56
+- **Mean Squared Error:** 0.21
 
-### Recommendations:
-- Make sure you're using the blocks in accordance with the movement patterns you want in your sprite. For `move` or `turn` blocks to be effective, the sprite must have been updated to a new position corresponding to the steps moved or the degrees turned.
-- If changes or animations aren’t happening as expected, consider adding debug statements or checks after each move or turn to track if the sprite has actually changed position or orientation.
+These results indicate an improvement in the model's performance after fine-tuning with the selected representative projects.
