@@ -46,3 +46,9 @@ The model's response provides a comprehensive set of suggestions to enhance the 
 - **Mean Squared Error:** 0.21
 
 These results indicate an improvement in the model's performance after fine-tuning with the selected representative projects.
+
+## Comparison with Previous Results
+- **Previous Accuracy:** 0.52
+- **Previous Mean Squared Error:** 0.26
+
+The updated accuracy of 0.56 shows an improvement of 0.04, and the mean squared error has decreased by 0.05, indicating better model performance.
