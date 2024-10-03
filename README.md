@@ -7,3 +7,8 @@ This repository contains scripts and configurations for fine-tuning the gpt-4o-m
 - `check_fine_tune_status.py`: Script to check the status of the fine-tuning job.
 
 Ensure you have the necessary environment setup and credentials to run the scripts.
+
+## Evaluation Results
+
+- Accuracy: 0.52
+- Mean Squared Error: 0.26

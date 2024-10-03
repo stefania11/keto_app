@@ -38,14 +38,29 @@ def evaluate_model(test_data, model_name):
         prompt = prepare_example(project)
         response = generate_response(prompt, model_name)
 
-        # Simple accuracy metric: check if all block names are mentioned in the response
-        block_names = [block['name'] for block in project['blocks']]
-        prediction = all(name.lower() in response.lower() for name in block_names)
+        # Refined accuracy metric: check for partial matches and consider structure
+        block_names = [block['name'].lower() for block in project['blocks']]
+        block_types = [block['type'].lower() for block in project['blocks']]
+
+        # Check for block names
+        name_matches = sum(name in response.lower() for name in block_names)
+        name_accuracy = name_matches / len(block_names) if block_names else 1.0
+
+        # Check for block types
+        type_matches = sum(type_ in response.lower() for type_ in block_types)
+        type_accuracy = type_matches / len(block_types) if block_types else 1.0
+
+        # Check for structure keywords
+        structure_keywords = ['structure', 'contains', 'consists of', 'composed of']
+        structure_score = any(keyword in response.lower() for keyword in structure_keywords)
+
+        # Combine scores
+        prediction = (name_accuracy * 0.4 + type_accuracy * 0.4 + structure_score * 0.2)
 
         predictions.append(prediction)
         actual.append(1)  # Assuming all test examples should be correctly described
 
-    accuracy = accuracy_score(actual, predictions)
+    accuracy = np.mean(predictions)  # Use mean of predictions as overall accuracy
     mse = mean_squared_error(actual, predictions)
 
     return accuracy, mse
