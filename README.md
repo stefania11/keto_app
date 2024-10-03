@@ -1,4 +1,4 @@
-#GPTO Fine-Tuning on Scratch Projects
+# GPTO Fine-Tuning on Scratch Projects
 
 
 This repository contains scripts and configurations for fine-tuning the gpt-4o-mini-2024-07-18 model using a subset of Scratch projects. The following files are included:
