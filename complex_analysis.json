@@ -1,0 +1,21 @@
+{
+  "blocks": {
+    "total": 34,
+    "unique": 18,
+    "frequency": {
+      "event_whenflagclicked": 4,
+      "control_forever": 4,
+      "operator_random": 4,
+      "argument_reporter_string_number": 4,
+      "data_deleteoflist": 2,
+      "motion_direction": 2,
+      "data_setvariableto": 2,
+      "data_addtolist": 2
+    }
+  },
+  "scripts": 6,
+  "sprites": 1,
+  "variables": 2,
+  "lists": 2,
+  "extensions": 1
+}
