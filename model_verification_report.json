@@ -1,0 +1,20 @@
+{
+  "todo_items": 3,
+  "all_checked": true,
+  "models_verified": [
+    {
+      "model": "gpt-4o-2024-08-06",
+      "job_id": "ftjob-YkK6KO5rrK2I9gMi2lt8TEj7",
+      "status": "succeeded",
+      "created_at": 1728072521,
+      "finished_at": 1728077371
+    },
+    {
+      "model": "gpt-4o-mini-2024-07-18",
+      "job_id": "ftjob-Y8tpqHQDTMGu3eENQcZdkkjX",
+      "status": "succeeded",
+      "created_at": 1728001803,
+      "finished_at": 1728004645
+    }
+  ]
+}
