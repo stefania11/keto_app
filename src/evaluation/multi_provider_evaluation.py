@@ -3,6 +3,7 @@ import json
 import pandas as pd
 from openai import OpenAI
 from anthropic import Anthropic
+import requests
 from pathlib import Path
 import numpy as np
 from tqdm import tqdm
@@ -14,9 +15,15 @@ import traceback
 import argparse
 
 def load_evaluation_data(file_path):
-    """Load evaluation dataset from JSON file."""
-    with open(file_path, 'r') as file:
-        return json.load(file)
+    """Load evaluation dataset from CSV file and convert to required format."""
+    df = pd.read_csv(file_path)
+    evaluation_data = []
+    for _, row in df.iterrows():
+        evaluation_data.append({
+            "prompt": f"Describe Scratch project ID {row['project_id']}",
+            "completion": f" blocks:\nsprite: Project_{row['project_id']}"
+        })
+    return evaluation_data
 
 def calculate_semantic_similarity(str1, str2):
     """Calculate semantic similarity between two strings using sentence transformers."""
@@ -65,7 +72,40 @@ def make_anthropic_call(client, model_name, prompt):
         print(f"Error in Anthropic API call: {str(e)}")
         raise
 
-def evaluate_model(model_provider, client, model_name, evaluation_data):
+@backoff.on_exception(backoff.expo,
+                     Exception,
+                     max_tries=5,
+                     max_time=300)
+def make_deepseek_call(api_key, prompt):
+    """Make DeepSeek API call with retry logic."""
+    try:
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        data = {
+            "model": "deepseek-coder-v2",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ],
+            "temperature": 0.7,
+            "max_tokens": 150
+        }
+        response = requests.post(
+            "https://api.deepseek.com/v1/chat/completions",
+            headers=headers,
+            json=data
+        )
+        response.raise_for_status()
+        return response.json()["choices"][0]["message"]["content"].strip()
+    except Exception as e:
+        print(f"Error in DeepSeek API call: {str(e)}")
+        raise
+
+def evaluate_model(model_provider, client, model_name, evaluation_data, api_key=None):
     """Evaluate a model's performance on the test data."""
     results = []
     format_accuracy = 0
@@ -88,6 +128,10 @@ def evaluate_model(model_provider, client, model_name, evaluation_data):
                 system_prompt = "You are a helpful assistant that describes Scratch projects."
                 full_prompt = f"{system_prompt}\n\n{prompt}"
                 model_completion = make_anthropic_call(client, model_name, full_prompt)
+            elif model_provider == "deepseek":
+                system_prompt = "You are a helpful assistant that describes Scratch projects."
+                full_prompt = f"{system_prompt}\n\n{prompt}"
+                model_completion = make_deepseek_call(api_key, full_prompt)
             else:
                 raise ValueError(f"Unsupported model provider: {model_provider}")
 
@@ -146,22 +190,24 @@ def save_results(metrics, results, model_name, output_dir):
 
 def main():
     """Run evaluation on all specified models."""
-    # Initialize clients
+    # Initialize clients with correct environment variable names
     openai_client = OpenAI(
         api_key=os.environ.get("OAI_key"),
         organization=os.environ.get("OAI_organization_id")
     )
     anthropic_client = Anthropic(api_key=os.environ.get("anthropic_api"))
+    deepseek_api_key = os.environ.get("deepseek_api")
 
     # Load evaluation data
-    evaluation_data_path = Path(__file__).parent.parent / "data" / "medium_complexity_projects.json"
+    evaluation_data_path = Path(__file__).parent.parent / "data" / "medium_complexity_projects.csv"
     evaluation_data = load_evaluation_data(evaluation_data_path)
 
     # Define models to evaluate
     models_to_evaluate = [
         {"provider": "openai", "name": "gpt-4-0613"},
         {"provider": "openai", "name": "ft:gpt-4-0613:personal::8K2glPZx"},
-        {"provider": "anthropic", "name": "claude-3-sonnet-20240229"}
+        {"provider": "anthropic", "name": "claude-3-sonnet-20240229"},
+        {"provider": "deepseek", "name": "deepseek-coder-v2"}
     ]
 
     output_dir = Path(__file__).parent / "results"
@@ -172,10 +218,14 @@ def main():
         provider = model["provider"]
         model_name = model["name"]
 
-        client = openai_client if provider == "openai" else anthropic_client
-
         print(f"\nEvaluating {provider} model: {model_name}")
-        metrics, results = evaluate_model(provider, client, model_name, evaluation_data)
+
+        if provider == "openai":
+            metrics, results = evaluate_model(provider, openai_client, model_name, evaluation_data)
+        elif provider == "anthropic":
+            metrics, results = evaluate_model(provider, anthropic_client, model_name, evaluation_data)
+        elif provider == "deepseek":
+            metrics, results = evaluate_model(provider, None, model_name, evaluation_data, api_key=deepseek_api_key)
 
         save_results(metrics, results, model_name, output_dir)
 
