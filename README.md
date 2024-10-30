@@ -1,15 +1,29 @@
-# GPTO Fine-Tuning on Scratch Projects
+# GPT-O Scratch Project Fine-tuning
 
+This repository contains code for fine-tuning OpenAI models on Scratch project analysis.
 
-This repository contains scripts and configurations for fine-tuning the gpt-4o-mini-2024-07-18 model using a subset of Scratch projects. The following files are included:
+## Directory Structure
 
-- `configure_model.py`: Script to configure the model for fine-tuning.
-- `sample_projects.py`: Script to sample and prepare Scratch projects for training.
-- `check_fine_tune_status.py`: Script to check the status of the fine-tuning job.
+- src/
+  - data/: Dataset and training files
+  - evaluation/: Model evaluation scripts
+  - models/: Model configuration and fine-tuning
+  - scripts/: Training optimization
+  - utils/: Helper functions
 
-Ensure you have the necessary environment setup and credentials to run the scripts.
+## Setup
 
-## Evaluation Results
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-- Accuracy: 0.52
-- Mean Squared Error: 0.26
+2. Configure environment variables:
+- OpenAI API key
+- OpenAI organization ID
+
+3. Download required dataset files from [TUDelft ScratchLab Dataset](https://github.com/TUDelftScratchLab/ScratchDataset)
+
+## Usage
+
+See individual component directories for specific documentation and usage instructions.
