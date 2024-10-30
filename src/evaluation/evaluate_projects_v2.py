@@ -1,10 +1,12 @@
 import pandas as pd
 import json
-import sys
-from pathlib import Path
-import numpy as np
 from tqdm import tqdm
+import csv
+import traceback
+from pathlib import Path
 import os
+import sys
+import numpy as np
 
 def load_medium_complexity_projects(num_projects=30):
     """Load the identified medium complexity projects."""
@@ -65,7 +67,9 @@ def evaluate_projects(num_projects=30):
                 "Input": str
             },
             chunksize=10000,
-            on_bad_lines="skip"
+            on_bad_lines="skip",
+            quoting=csv.QUOTE_ALL,  # Handle all fields as quoted
+            escapechar='\\'  # Use backslash as escape character
         )
 
         # Initialize storage for project blocks
@@ -89,31 +93,41 @@ def evaluate_projects(num_projects=30):
         for pid, count in total_blocks_found.items():
             print(f"Project {pid}: {count} blocks")
 
-        # Sample some raw data for debugging
+        # Sample some raw data for debugging (with robust CSV parsing)
         print("\nSampling raw data from allBlocks.csv...")
-        sample_df = pd.read_csv(
-            "src/data/dataset_raw/allBlocks.csv",
-            names=["ProjectId", "BlockId", "ParentId", "Type", "Target",
-                  "OpCode", "NextBlock", "Comment", "Input"],
-            nrows=5
-        )
-        print("\nSample data from allBlocks.csv:")
-        print(sample_df[["ProjectId", "BlockId"]].head())
+        try:
+            sample_df = pd.read_csv(
+                "src/data/dataset_raw/allBlocks.csv",
+                names=["ProjectId", "BlockId", "ParentId", "Type", "Target",
+                      "OpCode", "NextBlock", "Comment", "Input"],
+                nrows=5,
+                quoting=csv.QUOTE_ALL,
+                escapechar='\\',
+                on_bad_lines='skip'
+            )
+            print("\nSample data from allBlocks.csv:")
+            print(sample_df[["ProjectId", "BlockId"]].head())
+        except Exception as e:
+            print(f"Warning: Could not sample raw data: {str(e)}")
 
         # Prepare evaluation data
         print("\nPreparing evaluation data...")
         evaluation_data = []
         for pid in tqdm(project_ids, desc="Processing projects"):
             if project_blocks[pid]:
-                combined_blocks = pd.concat(project_blocks[pid])
-                print(f"\nProcessing project {pid}:")
-                print(f"Total blocks: {len(combined_blocks)}")
-                print(f"Unique targets: {combined_blocks['Target'].unique()}")
-                project_data = prepare_project_data(pid, combined_blocks)
-                if project_data:
-                    evaluation_data.append(project_data)
-                else:
-                    print(f"Project {pid} data preparation failed")
+                try:
+                    combined_blocks = pd.concat(project_blocks[pid])
+                    print(f"\nProcessing project {pid}:")
+                    print(f"Total blocks: {len(combined_blocks)}")
+                    print(f"Unique targets: {combined_blocks['Target'].unique()}")
+                    project_data = prepare_project_data(pid, combined_blocks)
+                    if project_data:
+                        evaluation_data.append(project_data)
+                    else:
+                        print(f"Project {pid} data preparation failed")
+                except Exception as e:
+                    print(f"Error processing project {pid}: {str(e)}")
+                    continue
 
         # Save evaluation data
         output_file = "src/data/evaluation_data.jsonl"
