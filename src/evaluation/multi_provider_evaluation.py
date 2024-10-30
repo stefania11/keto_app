@@ -225,13 +225,9 @@ def main():
     # Define models to evaluate
     models_to_evaluate = [
         {"provider": "openai", "name": "gpt-4-0613"},
-        {"provider": "openai", "name": "ft:gpt-4-0613:personal::8K2glPZx"},
         {"provider": "anthropic", "name": "claude-3-sonnet-20240229"},
         {"provider": "deepseek", "name": "deepseek-coder-v2"}
     ]
-
-    output_dir = Path(__file__).parent / "results"
-    os.makedirs(output_dir, exist_ok=True)
 
     all_metrics = []
     for model in models_to_evaluate:
@@ -240,20 +236,24 @@ def main():
 
         print(f"\nEvaluating {provider} model: {model_name}")
 
-        if provider == "openai":
-            metrics, results = evaluate_model(provider, openai_client, model_name, evaluation_data)
-        elif provider == "anthropic":
-            metrics, results = evaluate_model(provider, anthropic_client, model_name, evaluation_data)
-        elif provider == "deepseek":
-            metrics, results = evaluate_model(provider, None, model_name, evaluation_data, api_key=deepseek_api_key)
+        try:
+            if provider == "openai":
+                metrics, results = evaluate_model(provider, openai_client, model_name, evaluation_data)
+            elif provider == "anthropic":
+                metrics, results = evaluate_model(provider, anthropic_client, model_name, evaluation_data)
+            elif provider == "deepseek":
+                metrics, results = evaluate_model(provider, None, model_name, evaluation_data, api_key=deepseek_api_key)
 
-        save_results(metrics, results, model_name, output_dir)
+            save_results(metrics, results, model_name, output_dir)
 
-        all_metrics.append({
-            "model": model_name,
-            "provider": provider,
-            **metrics
-        })
+            all_metrics.append({
+                "model": model_name,
+                "provider": provider,
+                **metrics
+            })
+        except Exception as e:
+            print(f"Error evaluating {model_name}: {str(e)}")
+            continue
 
     # Save comparison table
     comparison_df = pd.DataFrame(all_metrics)
