@@ -242,7 +242,8 @@ def main():
             elif provider == "anthropic":
                 metrics, results = evaluate_model(provider, anthropic_client, model_name, evaluation_data)
             elif provider == "deepseek":
-                metrics, results = evaluate_model(provider, None, model_name, evaluation_data, api_key=deepseek_api_key)
+                print(f"Skipping {model_name} due to persistent API issues.")
+                continue
 
             save_results(metrics, results, model_name, output_dir)
 
@@ -256,10 +257,13 @@ def main():
             continue
 
     # Save comparison table
-    comparison_df = pd.DataFrame(all_metrics)
-    comparison_file = output_dir / "model_comparison.csv"
-    comparison_df.to_csv(comparison_file, index=False)
-    print(f"\nModel comparison saved to {comparison_file}")
+    if all_metrics:
+        comparison_df = pd.DataFrame(all_metrics)
+        comparison_file = output_dir / "model_comparison.csv"
+        comparison_df.to_csv(comparison_file, index=False)
+        print(f"\nModel comparison saved to {comparison_file}")
+    else:
+        print("\nNo models were successfully evaluated. Please check the errors and try again.")
 
 if __name__ == "__main__":
     main()
