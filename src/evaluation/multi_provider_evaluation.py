@@ -85,7 +85,7 @@ def make_deepseek_call(api_key, prompt):
             "Content-Type": "application/json"
         }
         data = {
-            "model": "deepseek-coder-v2",
+            "model": "deepseek-coder",  # Updated to correct model name
             "messages": [
                 {
                     "role": "system",
@@ -205,7 +205,8 @@ def main():
     required_vars = {
         'OAI_key': 'OpenAI API key',
         'OAI_organization_id': 'OpenAI organization ID',
-        'anthropic_api': 'Anthropic API key'
+        'anthropic_api': 'Anthropic API key',
+        'deepseek_api': 'DeepSeek API key'
     }
 
     missing_vars = [name for name, desc in required_vars.items() if not os.environ.get(name)]
@@ -231,7 +232,7 @@ def main():
     models_to_evaluate = [
         {"provider": "openai", "name": "gpt-4-0613"},
         {"provider": "anthropic", "name": "claude-3-sonnet-20240229"},
-        {"provider": "deepseek", "name": "deepseek-coder-v2"}
+        {"provider": "deepseek", "name": "deepseek-coder"}
     ]
 
     all_metrics = []
