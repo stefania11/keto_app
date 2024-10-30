@@ -6,14 +6,25 @@ import numpy as np
 from tqdm import tqdm
 import os
 
-def load_medium_complexity_projects():
+def load_medium_complexity_projects(num_projects=30):
     """Load the identified medium complexity projects."""
     projects_df = pd.read_csv("src/data/medium_complexity_projects.csv")
-    return projects_df.sort_values("ComplexityScore", ascending=False)
+    projects_df = projects_df.sort_values("ComplexityScore", ascending=False)
+    return projects_df.head(num_projects)
 
-def prepare_project_data(project_id, blocks_df):
+def process_project_blocks(project_id, chunk_iterator):
+    """Process blocks for a specific project from chunks."""
+    project_blocks = []
+    for chunk in chunk_iterator:
+        project_chunk = chunk[chunk["ProjectId"] == project_id]
+        if not project_chunk.empty:
+            project_blocks.append(project_chunk)
+    return pd.concat(project_blocks) if project_blocks else pd.DataFrame()
+
+def prepare_project_data(project_id, project_blocks):
     """Prepare project data in the required format."""
-    project_blocks = blocks_df[blocks_df["ProjectId"] == project_id]
+    if project_blocks.empty:
+        return None
 
     # Extract sprites and their blocks
     sprites = {}
@@ -38,16 +49,11 @@ def evaluate_projects(num_projects=30):
     """Evaluate a specified number of medium complexity projects."""
     try:
         # Load projects
-        projects_df = load_medium_complexity_projects()
-        if len(projects_df) < num_projects:
-            print(f"Warning: Only {len(projects_df)} projects available")
-            num_projects = len(projects_df)
+        print(f"Loading top {num_projects} medium complexity projects...")
+        projects_df = load_medium_complexity_projects(num_projects)
 
-        selected_projects = projects_df.head(num_projects)
-
-        # Load blocks data
-        print("Loading blocks data...")
-        blocks_df = pd.read_csv(
+        # Create chunk iterator for blocks data
+        chunk_iterator = pd.read_csv(
             "src/data/dataset_raw/allBlocks.csv",
             names=["ProjectId", "BlockId", "ParentId", "Type", "Target",
                   "OpCode", "NextBlock", "Comment", "Input"],
@@ -62,15 +68,18 @@ def evaluate_projects(num_projects=30):
                 "Comment": str,
                 "Input": str
             },
+            chunksize=10000,
             on_bad_lines="skip"
         )
 
         # Prepare evaluation data
         print("Preparing evaluation data...")
         evaluation_data = []
-        for _, project in tqdm(selected_projects.iterrows(), total=len(selected_projects)):
-            project_data = prepare_project_data(project["ProjectId"], blocks_df)
-            evaluation_data.append(project_data)
+        for _, project in tqdm(projects_df.iterrows(), total=len(projects_df)):
+            project_blocks = process_project_blocks(project["ProjectId"], chunk_iterator)
+            project_data = prepare_project_data(project["ProjectId"], project_blocks)
+            if project_data:
+                evaluation_data.append(project_data)
 
         # Save evaluation data
         output_file = "src/data/evaluation_data.jsonl"
