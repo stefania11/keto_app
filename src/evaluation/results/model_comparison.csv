@@ -1,0 +1,3 @@
+model,provider,format_accuracy,sprite_accuracy,semantic_similarity
+gpt-4-0613,openai,0.0,0.0,0.2543009176850319
+claude-3-sonnet-20240229,anthropic,0.0,0.0,0.35273776824275654

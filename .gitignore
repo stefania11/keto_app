@@ -12,6 +12,8 @@ dataset_raw/
 src/data/*
 !src/data/README.md
 !src/data/medium_complexity_projects.csv
+!src/evaluation/results/*.csv
+!src/evaluation/results/*.json
 
 # IDE and OS
 .idea/
