@@ -43,6 +43,7 @@ def evaluate_projects(num_projects=30):
         print(f"Loading top {num_projects} medium complexity projects...")
         projects_df = load_medium_complexity_projects(num_projects)
         project_ids = set(projects_df["ProjectId"])
+        print(f"Selected project IDs: {project_ids}")
 
         # Initialize storage for project blocks
         project_blocks = {pid: [] for pid in project_ids}
@@ -68,28 +69,40 @@ def evaluate_projects(num_projects=30):
             on_bad_lines="skip"
         )
 
+        total_blocks_found = {pid: 0 for pid in project_ids}
         for chunk in tqdm(chunk_iterator, desc="Reading blocks"):
             # Filter chunk for our projects
             mask = chunk["ProjectId"].isin(project_ids)
             if mask.any():
+                filtered_chunk = chunk[mask]
                 for pid in project_ids:
-                    project_chunk = chunk[chunk["ProjectId"] == pid]
+                    project_chunk = filtered_chunk[filtered_chunk["ProjectId"] == pid]
                     if not project_chunk.empty:
                         project_blocks[pid].append(project_chunk)
+                        total_blocks_found[pid] += len(project_chunk)
+
+        print("\nBlocks found per project:")
+        for pid, count in total_blocks_found.items():
+            print(f"Project {pid}: {count} blocks")
 
         # Prepare evaluation data
-        print("Preparing evaluation data...")
+        print("\nPreparing evaluation data...")
         evaluation_data = []
         for pid in tqdm(project_ids, desc="Processing projects"):
             if project_blocks[pid]:
                 combined_blocks = pd.concat(project_blocks[pid])
+                print(f"\nProcessing project {pid}:")
+                print(f"Total blocks: {len(combined_blocks)}")
+                print(f"Unique targets: {combined_blocks['Target'].unique()}")
                 project_data = prepare_project_data(pid, combined_blocks)
                 if project_data:
                     evaluation_data.append(project_data)
+                else:
+                    print(f"Project {pid} data preparation failed")
 
         # Save evaluation data
         output_file = "src/data/evaluation_data.jsonl"
-        print(f"Saving evaluation data to {output_file}...")
+        print(f"\nSaving evaluation data to {output_file}...")
         with open(output_file, "w") as f:
             for item in evaluation_data:
                 f.write(json.dumps(item) + "\n")
