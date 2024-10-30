@@ -47,9 +47,6 @@ def evaluate_projects(num_projects=30):
         project_ids = set(projects_df["ProjectId"])
         print(f"Selected project IDs: {project_ids}")
 
-        # Initialize storage for project blocks
-        project_blocks = {pid: [] for pid in project_ids}
-
         # Process blocks data in chunks
         print("Processing blocks data...")
         chunk_iterator = pd.read_csv(
@@ -71,15 +68,17 @@ def evaluate_projects(num_projects=30):
             on_bad_lines="skip"
         )
 
+        # Initialize storage for project blocks
+        project_blocks = {pid: [] for pid in project_ids}
         total_blocks_found = {pid: 0 for pid in project_ids}
-        for chunk in tqdm(chunk_iterator, desc="Reading blocks"):
-            # Extract project IDs from BlockId column (first part before the hyphen)
-            chunk['ProjectId'] = chunk['BlockId'].str.split('-').str[0]
 
+        print("\nReading blocks and matching projects...")
+        for chunk in tqdm(chunk_iterator, desc="Reading blocks"):
             # Filter chunk for our projects
             mask = chunk["ProjectId"].isin(project_ids)
             if mask.any():
                 filtered_chunk = chunk[mask]
+                print(f"\nFound matching projects in chunk: {filtered_chunk['ProjectId'].unique()}")
                 for pid in project_ids:
                     project_chunk = filtered_chunk[filtered_chunk["ProjectId"] == pid]
                     if not project_chunk.empty:
@@ -89,6 +88,17 @@ def evaluate_projects(num_projects=30):
         print("\nBlocks found per project:")
         for pid, count in total_blocks_found.items():
             print(f"Project {pid}: {count} blocks")
+
+        # Sample some raw data for debugging
+        print("\nSampling raw data from allBlocks.csv...")
+        sample_df = pd.read_csv(
+            "src/data/dataset_raw/allBlocks.csv",
+            names=["ProjectId", "BlockId", "ParentId", "Type", "Target",
+                  "OpCode", "NextBlock", "Comment", "Input"],
+            nrows=5
+        )
+        print("\nSample data from allBlocks.csv:")
+        print(sample_df[["ProjectId", "BlockId"]].head())
 
         # Prepare evaluation data
         print("\nPreparing evaluation data...")
