@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+
+# Data and large files
+*.csv
+*.jsonl
+*.xlsx
+*.7z*
+dataset_raw/
+src/data/*
+!src/data/README.md
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.env
+.venv
+
+# Keep specific files
+!requirements.txt
+!README.md
