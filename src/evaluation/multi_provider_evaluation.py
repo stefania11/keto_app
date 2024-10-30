@@ -17,11 +17,12 @@ import argparse
 def load_evaluation_data(file_path):
     """Load evaluation dataset from CSV file and convert to required format."""
     df = pd.read_csv(file_path)
+    df = df.head(30)  # Select first 30 projects
     evaluation_data = []
     for _, row in df.iterrows():
         evaluation_data.append({
-            "prompt": f"Describe Scratch project ID {row['project_id']}",
-            "completion": f" blocks:\nsprite: Project_{row['project_id']}"
+            "prompt": f"Describe Scratch project ID {row['ProjectId']}",
+            "completion": f" blocks:\nsprite: Project_{row['ProjectId']}"
         })
     return evaluation_data
 
