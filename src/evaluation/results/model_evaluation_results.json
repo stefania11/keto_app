@@ -1,0 +1,50 @@
+{
+  "evaluation_timestamp": "2024-10-29T19:17:40.697376",
+  "test_size": 2,
+  "baseline": {
+    "accuracy": 0.56,
+    "mse": 0.21
+  },
+  "model_results": {
+    "gpt-4o-2024-08-06": {
+      "accuracy": 0.0,
+      "mse": 2116.0,
+      "accuracy_vs_baseline": -0.56,
+      "mse_vs_baseline": 2115.79,
+      "responses": [
+        {
+          "prompt": "Describe Scratch project ID 25498751.",
+          "expected": "blocks:\nsprite: Stage",
+          "response": "This Scratch project contains the following blocks:\nsprite: Sprite1",
+          "correct": false
+        },
+        {
+          "prompt": "Describe Scratch project ID 23887080.",
+          "expected": "blocks:\nsprite: Stage",
+          "response": "This Scratch project contains the following blocks:\nsprite: Sprite1",
+          "correct": false
+        }
+      ]
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "accuracy": 0.0,
+      "mse": 9409.0,
+      "accuracy_vs_baseline": -0.56,
+      "mse_vs_baseline": 9408.79,
+      "responses": [
+        {
+          "prompt": "Describe Scratch project ID 25498751.",
+          "expected": "blocks:\nsprite: Stage",
+          "response": "This Scratch project ID 25498751 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+          "correct": false
+        },
+        {
+          "prompt": "Describe Scratch project ID 23887080.",
+          "expected": "blocks:\nsprite: Stage",
+          "response": "This Scratch project ID 23887080 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+          "correct": false
+        }
+      ]
+    }
+  }
+}

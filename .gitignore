@@ -9,8 +9,11 @@ __pycache__/
 *.xlsx
 *.7z*
 dataset_raw/
-src/data/*
+
+# Keep specific data files
 !src/data/README.md
+!src/evaluation/results/*.json
+!src/models/*.json
 
 # IDE and OS
 .idea/
