@@ -11,6 +11,7 @@ __pycache__/
 dataset_raw/
 src/data/*
 !src/data/README.md
+!src/data/medium_complexity_projects.csv
 
 # IDE and OS
 .idea/
