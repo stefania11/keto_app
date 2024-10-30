@@ -194,13 +194,28 @@ def main():
     output_dir = Path(__file__).parent / "results"
     os.makedirs(output_dir, exist_ok=True)
 
+    # Check for required environment variables
+    required_vars = {
+        'OAI_key': 'OpenAI API key',
+        'OAI_organization_id': 'OpenAI organization ID',
+        'anthropic_api': 'Anthropic API key',
+        'deepseek_api': 'DeepSeek API key'
+    }
+
+    missing_vars = [name for name, desc in required_vars.items() if not os.environ.get(name)]
+    if missing_vars:
+        print("Missing required environment variables:")
+        for var in missing_vars:
+            print(f"- {var} ({required_vars[var]})")
+        return
+
     # Initialize clients with environment variables
     openai_client = OpenAI(
-        api_key=os.environ["OAI_key"],
-        organization=os.environ["OAI_organization_id"]
+        api_key=os.environ.get('OAI_key'),
+        organization=os.environ.get('OAI_organization_id')
     )
-    anthropic_client = Anthropic(api_key=os.environ.get("anthropic_api"))
-    deepseek_api_key = os.environ.get("deepseek_api")
+    anthropic_client = Anthropic(api_key=os.environ.get('anthropic_api'))
+    deepseek_api_key = os.environ.get('deepseek_api')
 
     # Load evaluation data
     evaluation_data_path = Path(__file__).parent.parent / "data" / "medium_complexity_projects.csv"
