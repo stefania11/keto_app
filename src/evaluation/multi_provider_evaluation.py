@@ -190,10 +190,14 @@ def save_results(metrics, results, model_name, output_dir):
 
 def main():
     """Run evaluation on all specified models."""
-    # Initialize clients with correct environment variable names
+    # Create results directory
+    output_dir = Path(__file__).parent / "results"
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Initialize clients with environment variables
     openai_client = OpenAI(
-        api_key=os.environ.get("OAI_key"),
-        organization=os.environ.get("OAI_organization_id")
+        api_key=os.environ["OAI_key"],
+        organization=os.environ["OAI_organization_id"]
     )
     anthropic_client = Anthropic(api_key=os.environ.get("anthropic_api"))
     deepseek_api_key = os.environ.get("deepseek_api")
