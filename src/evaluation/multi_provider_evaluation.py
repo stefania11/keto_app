@@ -88,6 +88,10 @@ def make_deepseek_call(api_key, prompt):
             "model": "deepseek-coder-v2",
             "messages": [
                 {
+                    "role": "system",
+                    "content": "You are an expert at analyzing Scratch projects. Describe the blocks and sprites in the given project."
+                },
+                {
                     "role": "user",
                     "content": prompt
                 }
@@ -104,6 +108,8 @@ def make_deepseek_call(api_key, prompt):
         return response.json()["choices"][0]["message"]["content"].strip()
     except Exception as e:
         print(f"Error in DeepSeek API call: {str(e)}")
+        if 'response' in locals():
+            print(f"Response content: {response.text}")
         raise
 
 def evaluate_model(model_provider, client, model_name, evaluation_data, api_key=None):
