@@ -42,6 +42,8 @@ def evaluate_projects(num_projects=30):
         # Load projects
         print(f"Loading top {num_projects} medium complexity projects...")
         projects_df = load_medium_complexity_projects(num_projects)
+        # Convert ProjectId to string and ensure it's in the correct format
+        projects_df['ProjectId'] = projects_df['ProjectId'].astype(str)
         project_ids = set(projects_df["ProjectId"])
         print(f"Selected project IDs: {project_ids}")
 
@@ -71,6 +73,9 @@ def evaluate_projects(num_projects=30):
 
         total_blocks_found = {pid: 0 for pid in project_ids}
         for chunk in tqdm(chunk_iterator, desc="Reading blocks"):
+            # Extract project IDs from BlockId column (first part before the hyphen)
+            chunk['ProjectId'] = chunk['BlockId'].str.split('-').str[0]
+
             # Filter chunk for our projects
             mask = chunk["ProjectId"].isin(project_ids)
             if mask.any():
