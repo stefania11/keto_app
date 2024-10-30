@@ -1,3 +1,5 @@
-model,provider,format_accuracy,sprite_accuracy,semantic_similarity
-gpt-4-0613,openai,0.0,0.0,0.2543009176850319
-claude-3-sonnet-20240229,anthropic,0.0,0.0,0.35273776824275654
+model_name,total_evaluated,exact_match_accuracy,avg_semantic_similarity
+ft:gpt-4o-2024-08-06:personal::AEk9dgyk,30,0.0,0.5342830200990041
+ft:gpt-4o-mini-2024-07-18:personal::AEREcDGY,30,0.0,0.4279891868432363
+ft:gpt-4o-2024-08-06:personal::AEk9daX3:ckpt-step-1956,30,0.0,0.5303545663754146
+ft:gpt-4o-mini-2024-07-18:personal::AEREcs2S:ckpt-step-1956,30,0.0,0.4394308725992839

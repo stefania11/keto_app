@@ -1,0 +1,220 @@
+{
+  "metrics": {
+    "model_name": "ft:gpt-4o-mini-2024-07-18:personal::AEREcDGY",
+    "total_evaluated": 30,
+    "exact_match_accuracy": 0.0,
+    "avg_semantic_similarity": 0.4279891868432363
+  },
+  "detailed_results": [
+    {
+      "prompt": "Describe Scratch project ID 99578106.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite3\nsprite: Sprite2\nsprite: say %s\nsprite: Sprite1\nsprite: say 2 %s\nsprite: say 3 %s\nsprite: Sprite8\nsprite: Sprite9\nsprite: Sprite4\nsprite: Sprite6\nsprite: Sprite7\nsprite: Sprite5",
+      "prediction": "This Scratch project ID 99578106 contains the following blocks:\n- Block: Sprite4 (Type: sprite, Position: x=2, y=4, z=3)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.5880758762359619
+    },
+    {
+      "prompt": "Describe Scratch project ID 99679674.",
+      "target": " blocks:\nsprite: stage\nsprite: moon lord\nsprite: Toad\nsprite: Sprite1\nsprite: Sprite11\nsprite: Sprite7\nsprite: Sprite8\nsprite: Sprite2\nsprite: Sprite15\nsprite: Sprite3\nsprite: Sprite10\nsprite: Sprite12\nsprite: mailman\nsprite: Sprite5\nsprite: Sprite9\nsprite: 307\nsprite: Sprite13\nsprite: Sprite14\nsprite: Sprite6\nsprite: Sprite16\nsprite: 2\nsprite: Focus\nsprite: Red Alert\nsprite: Flood\nsprite: Sprite4",
+      "prediction": "This Scratch project ID 99679674 contains the following blocks:\n- Block: Car-Bug (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3882948160171509
+    },
+    {
+      "prompt": "Describe Scratch project ID 98508070.",
+      "target": " blocks:\nsprite: stage\nsprite: F\nsprite: q\nsprite: facts\nsprite: R.P\nsprite: bus\nsprite: 1\nsprite: quotess\nsprite: Speech \nsprite: abt rosa\nsprite: thx\nsprite: Q.f\nsprite: Story abt \nsprite: next\nsprite: Sprite1\nsprite: thx a\nsprite: b\nsprite: c\nsprite: d\nsprite: e\nsprite: Abt Rosa Parks\nsprite: girl\nsprite: Sprite2\nsprite: Sprite3",
+      "prediction": "This Scratch project ID 98508070 contains the following blocks:\n- Block: Sprite7 (Type: sprite, Position: x=2, y=5, z=5)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4458563029766083
+    },
+    {
+      "prompt": "Describe Scratch project ID 99460944.",
+      "target": " blocks:\nsprite: Text: %s Speed: %n\nsprite: MettaDog\nsprite: MettaDog EX\nsprite: Sans\nsprite: Cat Hex\nsprite: squirrel_warg\nsprite: 7784306434_575b5f021b_o\nsprite: 7784306434_575b5f021b_o3\nsprite: 7784306434_575b5f021b_o2\nsprite: 7784306434_575b5f021b_o4\nsprite: sikorsky_helicopter\nsprite: 7784306434_575b5f021b_o5\nsprite: Feeling Doggy\nsprite: Freed Thing\nsprite: Catxvian42\nsprite: NyanCatxel09\nsprite: Sprite1",
+      "prediction": "This Scratch project ID 99460944 contains the following blocks:\n- Block: Dragon (Type: sprite, Position: x=2, y=7, z=4)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.5054510831832886
+    },
+    {
+      "prompt": "Describe Scratch project ID 98633816.",
+      "target": " blocks:\nsprite: stage\nsprite: Office\nsprite: The bully\nsprite: The bullies\nsprite: The bullied 2\nsprite: Balloon Gobo\nsprite: The bullied\nsprite: JUMPSCARES/Animation2\nsprite: Static 2\nsprite: Static 1\nsprite: Blackout\nsprite: Fade/Room Light Effect\nsprite: Mask\nsprite: JUMPSCARES/Animation\nsprite: Something\nsprite: 2",
+      "prediction": "This Scratch project ID 98633816 contains the following blocks:\n- Block: Batlight (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4332246482372284
+    },
+    {
+      "prompt": "Describe Scratch project ID 99529299.",
+      "target": " blocks:\nsprite: stage\nsprite: Window the Widow\nsprite: Fly number 1\nsprite: Web\nsprite: Fly number 2\nsprite: Fly number 3\nsprite: Fly number 4\nsprite: Fly number 5\nsprite: Fly number 6\nsprite: eb935870-dd70-11e5-b89b-9de9acbde201\nsprite: 80e9f794-dd76-11e5-9f68-9de9acbde201",
+      "prediction": "This Scratch project ID 99529299 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4727141857147217
+    },
+    {
+      "prompt": "Describe Scratch project ID 99773380.",
+      "target": " blocks:\nsprite: stage\nsprite: moon lord\nsprite: Toad\nsprite: Sprite1\nsprite: Sprite11\nsprite: Sprite7\nsprite: Sprite8\nsprite: Sprite2\nsprite: Sprite15\nsprite: Sprite3\nsprite: Sprite10\nsprite: Sprite12\nsprite: mailman\nsprite: Sprite5\nsprite: Sprite9\nsprite: Sprite13\nsprite: Sprite14\nsprite: Sprite6\nsprite: Sprite16\nsprite: 307\nsprite: 2\nsprite: Flood\nsprite: Red Alert\nsprite: Focus\nsprite: Sprite4",
+      "prediction": "This Scratch project ID 99773380 contains the following blocks:\n- Block: Sprite15 (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4917841851711273
+    },
+    {
+      "prompt": "Describe Scratch project ID 98247980.",
+      "target": " blocks:\nsprite: stage\nsprite: Stuff\nsprite: Go to: %n %n Size: %n Input %s X Change: %n $/\\% %s\nsprite: Update %n\nsprite: Sprite1\nsprite: I Have\nsprite: Income\nsprite: Hours Per Week\nsprite: Price\nsprite: Start Day",
+      "prediction": "This Scratch project ID 98247980 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4449005424976349
+    },
+    {
+      "prompt": "Describe Scratch project ID 99600045.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite1\nsprite: Sprite2\nsprite: Sprite3\nsprite: SAKK\nsprite: Swich Mode %s\nsprite: SAKK say %s\nsprite: Flame\nsprite: Flame Say %s\nsprite: Unknown",
+      "prediction": "This Scratch project ID 99600045 contains the following blocks:\n- Block: window (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.49141624569892883
+    },
+    {
+      "prompt": "Describe Scratch project ID 99554525.",
+      "target": " blocks:\nsprite: explosion1\nsprite: Sprite1\nsprite: Metaor 1\nsprite: Sprite2\nsprite: Metaor 3\nsprite: Metaor 5\nsprite: Metaor 7\nsprite: Metaor 8\nsprite: Metaor 9\nsprite: Over\nsprite: Spaceship\nsprite: Shild\nsprite: Metaor 10\nsprite: Metaor 6\nsprite: Metaor 4\nsprite: Metaor 2",
+      "prediction": "This Scratch project ID 99554525 contains the following blocks:\n- Block: Bananas (Type: sprite, Position: x=3, y=3, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.46773168444633484
+    },
+    {
+      "prompt": "Describe Scratch project ID 98722411.",
+      "target": " blocks:\nsprite: stage\nsprite: Car\nsprite: Pistol Bullet\nsprite: Loading Icon\nsprite: Player\nsprite: shotgun spread\nsprite: emptycharacter2\nsprite: trevor icon\nsprite: franklin icon\nsprite: michael icon\nsprite: special_radar\nsprite: armor_radar\nsprite: health_radar\nsprite: ability_effect\nsprite: Radar\nsprite: refill_special2\nsprite: weather",
+      "prediction": "This Scratch project ID 98722411 contains the following blocks:\n- Block: Button1 (Type: sprite, Position: x=2, y=9, z=6)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.39944982528686523
+    },
+    {
+      "prompt": "Describe Scratch project ID 99709586.",
+      "target": " blocks:\nsprite: stage\nsprite: Flying Mode\nsprite: Spikes\nsprite: Clouds\nsprite: Title\nsprite: Ground2\nsprite: Ground1\nsprite: Shield\nsprite: Booster\nsprite: Bird Booster\nsprite: Powerup\nsprite: Bird\nsprite: Words\nsprite: Start\nsprite: Player",
+      "prediction": "This Scratch project ID 99709586 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.33634042739868164
+    },
+    {
+      "prompt": "Describe Scratch project ID 99066148.",
+      "target": " blocks:\nsprite: stage\nsprite: Car\nsprite: Pistol Bullet\nsprite: Loading Icon\nsprite: Player\nsprite: shotgun spread\nsprite: weather\nsprite: emptycharacter2\nsprite: trevor icon\nsprite: franklin icon\nsprite: michael icon\nsprite: special_radar\nsprite: armor_radar\nsprite: health_radar\nsprite: ability_effect\nsprite: Radar\nsprite: refill_special2",
+      "prediction": "This Scratch project ID 99066148 contains the following blocks:\n- Block: S-Glow (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3875694274902344
+    },
+    {
+      "prompt": "Describe Scratch project ID 98670966.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite1\nsprite: Sprite2\nsprite: Sprite3\nsprite: Sprite5\nsprite: Sprite7\nsprite: Sprite6\nsprite: Sprite4\nsprite: Sprite8\nsprite: Sprite9\nsprite: Sprite10\nsprite: Sprite11\nsprite: Sprite12",
+      "prediction": "This Scratch project ID 98670966 contains the following blocks:\n- Block: Pellets (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4966025948524475
+    },
+    {
+      "prompt": "Describe Scratch project ID 45999482.",
+      "target": " blocks:\nsprite: stage\nsprite: Out Side Ring\nsprite: Bad Box\nsprite: Bad Box 2\nsprite: 3, 2, 1, GO\nsprite: Good Box (players)\nsprite: Score\nsprite: Bad Box 3\nsprite: Bad Box4\nsprite: game over\nsprite: highscore\nsprite: Play",
+      "prediction": "This Scratch project ID 45999482 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3922896087169647
+    },
+    {
+      "prompt": "Describe Scratch project ID 99589345.",
+      "target": " blocks:\nsprite: Ball\nsprite: Star3\nsprite: tank1\nsprite: Sprite1\nsprite: Sprite2\nsprite: Sprite3\nsprite: Gift\nsprite: Sprite5\nsprite: Sprite4\nsprite: tank2\nsprite: Arrow4\nsprite: Arrow2",
+      "prediction": "This Scratch project ID 99589345 contains the following blocks:\n- Block: Sprite10 (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4787813723087311
+    },
+    {
+      "prompt": "Describe Scratch project ID 89389212.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite3\nsprite: Sprite4\nsprite: Sprite5\nsprite: Sprite6\nsprite: Sprite7\nsprite: Sprite8\nsprite: Sprite9\nsprite: Sprite10\nsprite: Sprite11\nsprite: Sprite12\nsprite: Sprite13\nsprite: Sprite14\nsprite: Sprite15\nsprite: Sprite16\nsprite: Sprite17\nsprite: Sprite18\nsprite: Sprite19\nsprite: Sprite20\nsprite: Sprite21\nsprite: Sprite22\nsprite: Sprite23\nsprite: Sprite24\nsprite: Sprite1\nsprite: Sprite2\nsprite: lol redstone",
+      "prediction": "This Scratch project ID 89389212 contains the following blocks:\n- Block: Sprite8 (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.5244825482368469
+    },
+    {
+      "prompt": "Describe Scratch project ID 99398800.",
+      "target": " blocks:\nsprite: Sprite6\nsprite: Sprite3\nsprite: Sprite5\nsprite: Sprite8\nsprite: Sprite10\nsprite: Sprite7\nsprite: Sprite2\nsprite: Sprite1\nsprite: Light\nsprite: Flash\nsprite: Fly\nsprite: Explode\nsprite: Set Launch Location\nsprite: Light2\nsprite: Sprite11",
+      "prediction": "This Scratch project ID 99398800 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3583696782588959
+    },
+    {
+      "prompt": "Describe Scratch project ID 98974195.",
+      "target": " blocks:\nsprite: stage\nsprite: Car\nsprite: Pistol Bullet\nsprite: Loading Icon\nsprite: Player\nsprite: shotgun spread\nsprite: weather\nsprite: emptycharacter2\nsprite: trevor icon\nsprite: franklin icon\nsprite: michael icon\nsprite: special_radar\nsprite: armor_radar\nsprite: health_radar\nsprite: ability_effect\nsprite: Radar\nsprite: refill_special2",
+      "prediction": "This Scratch project ID 98974195 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.2676020562648773
+    },
+    {
+      "prompt": "Describe Scratch project ID 98515012.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite2\nsprite: ChangeWordChoiceLv2\nsprite: ChangeWordChoice\nsprite: Sprite1\nsprite: RandomFalling\nsprite: RandomFallingLv2\nsprite: WordCheckLv1\nsprite: WordCheckLv2\nsprite: Adrian\nsprite: Sprite3",
+      "prediction": "This Scratch project ID 98515012 contains the following blocks:\n- Block: Clouds (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.4493362307548523
+    },
+    {
+      "prompt": "Describe Scratch project ID 93939608.",
+      "target": " blocks:\nsprite: Earth\nsprite: Sprite3\nsprite: Sprite5\nsprite: Sprite4\nsprite: Sprite6\nsprite: \uc6c0\uc9c1\uc774\uae30\nsprite: Sprite2\nsprite: Sprite7\nsprite: Sprite8\nsprite: Sprite1",
+      "prediction": "This Scratch project ID 93939608 contains the following blocks:\n- Block: cape (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.49330538511276245
+    },
+    {
+      "prompt": "Describe Scratch project ID 99080546.",
+      "target": " blocks:\nsprite: stage\nsprite: Game Over\nsprite: Batman\nsprite: Joker\nsprite: Batarang\nsprite: Card",
+      "prediction": "This Scratch project ID 99080546 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3342720866203308
+    },
+    {
+      "prompt": "Describe Scratch project ID 97922910.",
+      "target": " blocks:\nsprite: Sprite1\nsprite: Sprite2\nsprite: Sprite3\nsprite: Sprite4\nsprite: Sprite5\nsprite: Sprite6\nsprite: Sprite7\nsprite: Sprite8\nsprite: Sprite9\nsprite: Sprite10\nsprite: Sprite11",
+      "prediction": "This Scratch project ID 97922910 contains the following blocks:\n- Block: Draw Dark Energy (Type: procDef, Position: x=12, y=18, z=3)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.26874881982803345
+    },
+    {
+      "prompt": "Describe Scratch project ID 97872329.",
+      "target": " blocks:\nsprite: Sprite1\nsprite: Sprite2\nsprite: Sprite3\nsprite: Sprite4\nsprite: Sprite8\nsprite: Sprite7\nsprite: Gobo\nsprite: Sprite6\nsprite: Sprite5\nsprite: Cat1",
+      "prediction": "This Scratch project ID 97872329 contains the following blocks:\n- Block: Angry Bird (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.5056426525115967
+    },
+    {
+      "prompt": "Describe Scratch project ID 99873355.",
+      "target": " blocks:\nsprite: stage\nsprite: Boss Shot\nsprite: Boss Shot2\nsprite: Boss Shot3\nsprite: Health bar\nsprite: ShipShot\nsprite: Health Pack\nsprite: Ship\nsprite: Boss",
+      "prediction": "This Scratch project ID 99873355 contains the following blocks:\n- Block: Sprite14 (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.44837135076522827
+    },
+    {
+      "prompt": "Describe Scratch project ID 99011332.",
+      "target": " blocks:\nsprite: food bowl\nsprite: Sprite5\nsprite: Sprite6\nsprite: scratching post\nsprite: Sprite12\nsprite: Sprite14\nsprite: Sprite18\nsprite: Sprite21\nsprite: Sprite4\nsprite: Sprite16\nsprite: Sprite17\nsprite: Sprite13\nsprite: Sprite10\nsprite: Sprite11\nsprite: Sprite7\nsprite: play ball\nsprite: Sprite22\nsprite: Sprite3\nsprite: Sprite23\nsprite: Sprite8\nsprite: Twinkie\nsprite: Sprite24\nsprite: Sprite1\nsprite: Sprite20\nsprite: Sprite2\nsprite: Twinkie3\nsprite: Sprite19\nsprite: Sprite15\nsprite: angry cat 4\nsprite: angry cat 2\nsprite: Sprite9\nsprite: angry cat \nsprite: angry cat 3",
+      "prediction": "This Scratch project ID 99011332 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3096913993358612
+    },
+    {
+      "prompt": "Describe Scratch project ID 99219551.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite4\nsprite: UpDownThingy\nsprite: Sprite9\nsprite: Sprite10\nsprite: Sprite11\nsprite: Sprite2\nsprite: Sprite1\nsprite: Sprite3\nsprite: Forward\nsprite: SP3\nsprite: Back\nsprite: SP2\nsprite: SP1\nsprite: Sprite6\nsprite: Sprite5\nsprite: Xavier_Idle\nsprite: Xavier_Running\nsprite: MapSelect_Pics",
+      "prediction": "This Scratch project ID 99219551 contains the following blocks:\n- Block: Other (Type: sprite, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.5241432785987854
+    },
+    {
+      "prompt": "Describe Scratch project ID 98532675.",
+      "target": " blocks:\nsprite: stage\nsprite: red\nsprite: Gun\nsprite: Bullet\nsprite: shooter\nsprite: heli\nsprite: arm man parachute\nsprite: airplane_sprites_by_prinzeugn\nsprite: nuclear bomb\nsprite: Mideast-Israel-Milita_sham-1\nsprite: texxt powa\nsprite: warning\nsprite: Wave complete\nsprite: Play button\nsprite: explosion\nsprite: Power up",
+      "prediction": "This Scratch project ID 98532675 contains the following blocks:\n- Block: stage (Type: stage, Position: x=3, y=3, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3381361663341522
+    },
+    {
+      "prompt": "Describe Scratch project ID 98856393.",
+      "target": " blocks:\nsprite: stage\nsprite: Background\nsprite: Danger\nsprite: Sprite2\nsprite: ground\nsprite: Clouds\nsprite: Words\nsprite: Player (by Fyre)\nsprite: Sound\nsprite: Sprite1\nsprite: Points\nsprite: Sprite3\nsprite: Thumbnail",
+      "prediction": "This Scratch project ID 98856393 contains the following blocks:\n- Block: Stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.41681116819381714
+    },
+    {
+      "prompt": "Describe Scratch project ID 99677377.",
+      "target": " blocks:\nsprite: stage\nsprite: Sprite1\nsprite: SAKK's Space Jet\nsprite: Sprite3\nsprite: Sprite4\nsprite: Sprite2\nsprite: Free Undertale Sound Samples\nsprite: Say: %s Tone: %n Speed: %n\nsprite: Natnat\nsprite: TP\nsprite: SAKK\nsprite: Swich Mode %s\nsprite: SAKK say %s",
+      "prediction": "This Scratch project ID 99677377 contains the following blocks:\n- Block: stage (Type: stage, Position: x=2, y=2, z=1)\n",
+      "exact_match": false,
+      "semantic_similarity": 0.3802799582481384
+    }
+  ]
+}

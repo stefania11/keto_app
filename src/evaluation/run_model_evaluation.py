@@ -7,12 +7,10 @@ import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer, util
 import torch
-
-# Initialize OpenAI client with API key and organization
-client = OpenAI(
-    api_key=os.environ.get('OAI_key'),
-    organization=os.environ.get('OAI_organization_id')
-)
+import backoff
+import time
+import traceback
+import argparse
 
 def load_evaluation_data():
     """Load the evaluation dataset."""
@@ -34,24 +32,38 @@ def calculate_semantic_similarity(pred, target):
     similarity = util.pytorch_cos_sim(embedding1, embedding2)
     return float(similarity[0][0])
 
-def evaluate_model(model_name, evaluation_data, output_file):
+@backoff.on_exception(backoff.expo,
+                     (Exception),
+                     max_tries=5,
+                     max_time=300)
+def make_api_call(client, model_name, messages):
+    """Make API call with exponential backoff retry."""
+    try:
+        return client.chat.completions.create(
+            model=model_name,
+            messages=messages,
+            temperature=0.7,
+            max_tokens=150
+        )
+    except Exception as e:
+        print(f"API call error for model {model_name}: {str(e)}")
+        raise
+
+def evaluate_model(client, model_name, evaluation_data, output_file):
     """Evaluate a model on the test data."""
     results = []
 
     print(f"\nEvaluating model: {model_name}")
     for item in tqdm(evaluation_data):
         try:
-            # Get model completion
-            response = client.chat.completions.create(
-                model=model_name,
-                messages=[
-                    {"role": "system", "content": "You analyze Scratch projects and describe their structure."},
-                    {"role": "user", "content": item["prompt"]}
-                ],
-                temperature=0.7,
-                max_tokens=150
-            )
+            # Prepare messages
+            messages = [
+                {"role": "system", "content": "You analyze Scratch projects and describe their structure."},
+                {"role": "user", "content": item["prompt"]}
+            ]
 
+            # Get model completion with retry logic
+            response = make_api_call(client, model_name, messages)
             prediction = response.choices[0].message.content
 
             # Calculate metrics
@@ -66,9 +78,13 @@ def evaluate_model(model_name, evaluation_data, output_file):
                 "semantic_similarity": semantic_sim
             })
 
+            # Add a small delay between requests to avoid rate limiting
+            time.sleep(1)
+
         except Exception as e:
             print(f"Error evaluating prompt: {item['prompt']}")
             print(f"Error: {str(e)}")
+            print(f"Traceback: {traceback.format_exc()}")
             continue
 
     # Calculate overall metrics
@@ -96,8 +112,14 @@ def evaluate_model(model_name, evaluation_data, output_file):
 
     return metrics
 
-def main():
+def main(api_key, org_id):
     """Run evaluation on all specified models."""
+    # Initialize OpenAI client with provided credentials
+    client = OpenAI(
+        api_key=api_key.strip(),  # Ensure no whitespace in API key
+        organization=org_id.strip()  # Ensure no whitespace in org ID
+    )
+
     # Create results directory
     os.makedirs("src/evaluation/results", exist_ok=True)
 
@@ -105,16 +127,19 @@ def main():
     print("Loading evaluation data...")
     evaluation_data = load_evaluation_data()
 
-    # Models to evaluate
-    models = [
-        "gpt-4-0613",  # Base model for comparison
-        "ft:gpt-4-0613:personal::8K2glPZx",  # Replace with your actual fine-tuned model ID
+    # List of models to evaluate
+    models_to_evaluate = [
+        "ft:gpt-4o-2024-08-06:personal::AEk9dgyk",  # Latest gpt-4o model
+        "ft:gpt-4o-mini-2024-07-18:personal::AEREcDGY",  # Latest gpt-4o-mini model
+        "ft:gpt-4o-2024-08-06:personal::AEk9daX3:ckpt-step-1956",  # Checkpoint model for comparison
+        "ft:gpt-4o-mini-2024-07-18:personal::AEREcs2S:ckpt-step-1956"  # Checkpoint model for comparison
     ]
 
     # Run evaluation for each model
     all_metrics = []
-    for model in models:
+    for model in models_to_evaluate:
         metrics = evaluate_model(
+            client,
             model,
             evaluation_data,
             f"evaluation_results_{model.replace(':', '_')}.json"
@@ -127,4 +152,9 @@ def main():
     print("\nModel comparison saved to src/evaluation/results/model_comparison.csv")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Evaluate OpenAI models on Scratch project descriptions.")
+    parser.add_argument("--api_key", required=True, help="OpenAI API Key")
+    parser.add_argument("--org_id", required=True, help="OpenAI Organization ID")
+    args = parser.parse_args()
+
+    main(args.api_key, args.org_id)
