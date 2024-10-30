@@ -1,0 +1,9 @@
+{
+  "metrics": {
+    "model_name": "ft:gpt-4-0613:personal::8K2glPZx",
+    "total_evaluated": 0,
+    "exact_match_accuracy": NaN,
+    "avg_semantic_similarity": NaN
+  },
+  "detailed_results": []
+}
