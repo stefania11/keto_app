@@ -199,8 +199,7 @@ def main():
     required_vars = {
         'OAI_key': 'OpenAI API key',
         'OAI_organization_id': 'OpenAI organization ID',
-        'anthropic_api': 'Anthropic API key',
-        'deepseek_api': 'DeepSeek API key'
+        'anthropic_api': 'Anthropic API key'
     }
 
     missing_vars = [name for name, desc in required_vars.items() if not os.environ.get(name)]
