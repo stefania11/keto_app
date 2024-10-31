@@ -1,0 +1,147 @@
+{
+  "results": [
+    {
+      "prompt": "Analyze Scratch project 0",
+      "generated": "### Scratch Project 0 Structure\n\n**Sprite 1: Cat**\n\n- When green flag clicked\n  - Play sound meow\n  - Move 10 steps\n  - Turn 15 degrees\n  - Repeat 10 times\n    - Move 10 steps\n    - Turn 15 degrees\n  - Play sound purr\n  - Wait 1 second\n  - Glide 1 second to x: 0 y: 0\n\n**Sprite 2: Dog**\n\n- When green flag clicked\n  - Play sound bark\n  - Move 10 steps\n  - Turn 15 degrees\n  - Repeat 10 times\n    - Move 10 steps\n    - Turn 15 degrees\n  - Play sound growl\n  - Wait 1 second\n  - Glide 1 second to x: 0 y: 0\n\n**Sprite 3: Background**\n\n- When green flag clicked\n  - Set background to color #000000",
+      "expected": "blocks:\nsprite: Project\n  project_info: ProjectId,ComplexityScore,TotalBlocks,UniqueTargets,ControlBlocks,CustomBlocks",
+      "timestamp": 1730408108.9041193,
+      "semantic_similarity": 0.4010069966316223
+    },
+    {
+      "prompt": "Analyze Scratch project 1",
+      "generated": "**Sprite 1: Cat**\n\n* **Event:** When green flag clicked\n    * **Control:** Repeat until <condition>\n        * **Sensing:** Key <space> pressed?\n        * **Motion:** Move 10 steps\n* **Event:** When key <space> pressed\n    * **Motion:** Move 10 steps\n\n**Sprite 2: Dog**\n\n* **Event:** When green flag clicked\n    * **Control:** Repeat until <condition>\n        * **Sensing:** Key <a> pressed?\n        * **Motion:** Move 10 steps\n* **Event:** When key <a> pressed\n    * **Motion:** Move 10 steps",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]",
+      "timestamp": 1730408113.8600068,
+      "semantic_similarity": 0.6991444826126099
+    },
+    {
+      "prompt": "Analyze Scratch project 2",
+      "generated": "**Stage:**\n\n* **Background:** Image of a forest\n* **Sounds:**\n    * Bird chirping\n    * Wind blowing\n\n**Sprites:**\n\n**Sprite 1: Cat**\n\n* **Costumes:**\n    * Cat facing right\n    * Cat facing left\n* **Scripts:**\n    * **When green flag clicked:**\n        * Play sound \"Bird chirping\"\n        * Forever:\n            * If key \"right arrow\" pressed, then:\n                * Change x by 10\n            * If key \"left arrow\" pressed, then:\n                * Change x by -10\n            * If key \"up arrow\" pressed, then:\n                * Change y by 10\n            * If key \"down arrow\" pressed, then:\n                * Change y by -10\n\n**Sprite 2: Tree**\n\n* **Costumes:**\n    * Image of a tree\n* **Scripts:**\n    * **When green flag clicked:**\n        * Play sound \"Wind blowing\"\n        * Forever:\n            * If touching sprite \"Cat\", then:\n                * Change y by -10",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_pointindirection: [90]\n  motion_glidesecstoxy: [1, 50, 50]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_switchcostumeto: [costume1]\n  looks_switchcostumeto: [costume2]\n  looks_nextcostume: []",
+      "timestamp": 1730408119.717611,
+      "semantic_similarity": 0.5236250162124634
+    },
+    {
+      "prompt": "Analyze Scratch project 3",
+      "generated": "**Stage:**\n\n* **Background:** Image of a forest\n* **Sounds:**\n    * \"Jump\" sound effect\n    * \"Coin\" sound effect\n\n**Sprites:**\n\n**Player:**\n\n* **Blocks:**\n    * **Events:**\n        * When green flag clicked\n        * When space key pressed\n    * **Motion:**\n        * Move 10 steps\n        * Turn 15 degrees\n    * **Control:**\n        * Repeat until\n        * If\n    * **Sensing:**\n        * Touching color?\n    * **Sound:**\n        * Play sound \"Jump\"\n    * **Variables:**\n        * Score\n\n**Coin:**\n\n* **Blocks:**\n    * **Events:**\n        * When green flag clicked\n    * **Motion:**\n        * Move 10 steps\n    * **Control:**\n        * Forever\n    * **Looks:**\n        * Change color effect by 25\n    * **Sound:**\n        * Play sound \"Coin\"\n    * **Variables:**\n        * Value",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_repeat: [360]\n    motion_turnright: [1]\n    motion_movensteps: [1]\n  motion_pointindirection: [90]\n  motion_movenditsteps: [200]",
+      "timestamp": 1730408125.4468715,
+      "semantic_similarity": 0.508447527885437
+    },
+    {
+      "prompt": "Analyze Scratch project 4",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked:**\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n\n* **When space key pressed:**\n    * Say \"Hello!\" for 2 seconds\n\n**Sprite 2: Dog**\n\n* **When green flag clicked:**\n    * Move 10 steps\n    * Turn -15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn -15 degrees\n\n* **When a key is pressed:**\n    * Say \"Woof!\" for 2 seconds",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_say: [Hello!]\n  looks_thinkfor: [2]\n  looks_think: [Hmm...]",
+      "timestamp": 1730408130.1995556,
+      "semantic_similarity": 0.6743740439414978
+    },
+    {
+      "prompt": "Analyze Scratch project 5",
+      "generated": "**Sprite 1: Cat**\n\n* **Event:** When green flag clicked\n    * **Control:** Repeat until <touching color?>\n        * **Motion:** Move 10 steps\n        * **Control:** Wait 0.1 secs\n* **Event:** When this sprite clicked\n    * **Control:** Broadcast <message1>\n\n**Sprite 2: Dog**\n\n* **Event:** When I receive <message1>\n    * **Motion:** Move 10 steps\n    * **Control:** Wait 0.1 secs\n* **Event:** When green flag clicked\n    * **Control:** Repeat until <touching color?>\n        * **Motion:** Move 10 steps\n        * **Control:** Wait 0.1 secs",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_repeat: [360]\n    motion_turnright: [1]\n    motion_movensteps: [1]\n  motion_pointindirection: [90]\n  motion_movenditsteps: [200]",
+      "timestamp": 1730408135.0453794,
+      "semantic_similarity": 0.6592614650726318
+    },
+    {
+      "prompt": "Analyze Scratch project 6",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked:**\n    * Play sound \"Meow\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n* **When space key pressed:**\n    * Say \"Hello!\" for 2 seconds\n    * Broadcast \"Message 1\"\n\n**Sprite 2: Dog**\n\n* **When I receive \"Message 1\":**\n    * Play sound \"Woof\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n\n**Stage:**\n\n* **When green flag clicked:**\n    * Create clone of Cat\n    * Create clone of Dog",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_wait: [1]",
+      "timestamp": 1730408140.1954324,
+      "semantic_similarity": 0.5531064867973328
+    },
+    {
+      "prompt": "Analyze Scratch project 7",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked**\n    * **Say** \"Hello, world!\" for 2 seconds\n    * **Move** 10 steps\n    * **Turn** 15 degrees\n    * **Wait** 1 second\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** 15 degrees\n    * **Wait** 1 second\n    * **Say** \"Goodbye!\" for 2 seconds\n\n**Sprite 2: Dog**\n\n* **When green flag clicked**\n    * **Move** 10 steps\n    * **Turn** 15 degrees\n    * **Wait** 1 second\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** 15 degrees\n    * **Wait** 1 second\n    * **Say** \"Woof!\" for 2 seconds",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_say: [Hello!]\n  looks_thinkfor: [2, Hello there!]",
+      "timestamp": 1730408145.597155,
+      "semantic_similarity": 0.6590448617935181
+    },
+    {
+      "prompt": "Analyze Scratch project 8",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked:**\n    * Play sound \"meow\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n* **When space key pressed:**\n    * Say \"Hello!\" for 2 seconds\n\n**Sprite 2: Dog**\n\n* **When green flag clicked:**\n    * Play sound \"bark\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n* **When a key is pressed:**\n    * Say \"Woof!\" for 2 seconds\n\n**Background:**\n\n* **When green flag clicked:**\n    * Set background color to blue\n    * Play sound \"background music\"",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_wait: [1]",
+      "timestamp": 1730408150.9184813,
+      "semantic_similarity": 0.5963801145553589
+    },
+    {
+      "prompt": "Analyze Scratch project 9",
+      "generated": "**Sprite 1: Cat**\n\n- When green flag clicked\n  - Play sound meow\n  - Move 10 steps\n  - Repeat 10 times\n    - Turn 15 degrees\n    - Move 10 steps\n  - Play sound purr\n\n**Sprite 2: Dog**\n\n- When green flag clicked\n  - Play sound bark\n  - Move 10 steps\n  - Repeat 10 times\n    - Turn 15 degrees\n    - Move 10 steps\n  - Play sound growl\n\n**Sprite 3: Background**\n\n- No blocks",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_say: [Hello!]\n  looks_thinkforsecs: [I am thinking...]\n  looks_think: [Hmm...]",
+      "timestamp": 1730408155.3457665,
+      "semantic_similarity": 0.6192672252655029
+    },
+    {
+      "prompt": "Analyze Scratch project 10",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked**\n    * **Play sound** meow\n    * **Move** 10 steps\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** 15 degrees\n    * **Say** Hello for 2 seconds\n    * **Wait** 1 second\n    * **Hide**\n\n**Sprite 2: Dog**\n\n* **When green flag clicked**\n    * **Move** 10 steps\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** -15 degrees\n    * **Say** Woof for 2 seconds\n    * **Wait** 1 second\n    * **Hide**\n\n**Sprite 3: Background**\n\n* **When green flag clicked**\n    * **Set background** to Forest\n    * **Play sound** crickets",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]",
+      "timestamp": 1730408160.716502,
+      "semantic_similarity": 0.6327999830245972
+    },
+    {
+      "prompt": "Analyze Scratch project 11",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked**\n    * **Play sound** meow\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: -100 y: 0\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: 100 y: 0\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: 0 y: 100\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: 0 y: 0\n\n**Sprite 2: Dog**\n\n* **When green flag clicked**\n    * **Play sound** bark\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: 100 y: 0\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: -100 y: 0\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: 0 y: -100\n    * **Wait** 1 seconds\n    * **Glide** 1 seconds to x: 0 y: 0",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]",
+      "timestamp": 1730408166.9982371,
+      "semantic_similarity": 0.5665258765220642
+    },
+    {
+      "prompt": "Analyze Scratch project 12",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked**\n    * **Play sound** meow\n    * **Move** 10 steps\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** 15 degrees\n    * **Say** Hello for 2 seconds\n    * **Wait** 1 second\n    * **Hide**\n\n**Sprite 2: Dog**\n\n* **When green flag clicked**\n    * **Move** 10 steps\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** -15 degrees\n    * **Say** Woof for 2 seconds\n    * **Wait** 1 second\n    * **Hide**\n\n**Sprite 3: Background**\n\n* **When green flag clicked**\n    * **Set background** to Forest\n    * **Play sound** crickets",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]",
+      "timestamp": 1730408172.435524,
+      "semantic_similarity": 0.6253775358200073
+    },
+    {
+      "prompt": "Analyze Scratch project 13",
+      "generated": "**Sprite 1: Cat**\n\n- When green flag clicked\n  - Say \"Hello, world!\" for 2 seconds\n  - Play sound \"Meow\"\n  - Move 10 steps\n  - Turn 15 degrees\n  - Repeat 10 times\n    - Move 10 steps\n    - Turn 15 degrees\n  - Wait 1 second\n  - Hide\n\n**Sprite 2: Dog**\n\n- When green flag clicked\n  - Say \"Woof!\" for 2 seconds\n  - Play sound \"Bark\"\n  - Move 10 steps\n  - Turn 15 degrees\n  - Repeat 10 times\n    - Move 10 steps\n    - Turn 15 degrees\n  - Wait 1 second\n  - Hide\n\n**Sprite 3: Background**\n\n- No blocks",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]",
+      "timestamp": 1730408177.5676837,
+      "semantic_similarity": 0.6339752674102783
+    },
+    {
+      "prompt": "Analyze Scratch project 14",
+      "generated": "**Sprite 1: Cat**\n\n- **Event:** When green flag clicked\n  - **Control:** Repeat until\n    - **Sensing:** Touching color? (red)\n    - **Motion:** Move 10 steps\n- **Control:** Forever\n  - **Motion:** Move 10 steps\n  - **Control:** If\n    - **Sensing:** Touching color? (blue)\n    - **Control:** Repeat until\n      - **Motion:** Move 10 steps\n      - **Sensing:** Touching color? (red)\n    - **Control:** End\n  - **Control:** End\n\n**Sprite 2: Mouse**\n\n- **Event:** When green flag clicked\n  - **Motion:** Go to x: (0) y: (0)\n  - **Control:** Forever\n    - **Motion:** Move 10 steps\n    - **Control:** If\n      - **Sensing:** Touching color? (red)\n      - **Control:** Repeat until\n        - **Motion:** Move 10 steps\n        - **Sensing:** Touching color? (blue)\n      - **Control:** End\n    - **Control:** End",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]",
+      "timestamp": 1730408183.5398674,
+      "semantic_similarity": 0.6469384431838989
+    },
+    {
+      "prompt": "Analyze Scratch project 15",
+      "generated": "**Sprite 1: Cat**\n\n- When green flag clicked\n  - Play sound meow\n  - Move 10 steps\n  - Repeat until <touching color?>\n    - Move 10 steps\n  - Say Hello for 2 seconds\n  - Play sound purr\n\n**Sprite 2: Dog**\n\n- When green flag clicked\n  - Play sound bark\n  - Move 10 steps\n  - Repeat until <touching color?>\n    - Move 10 steps\n  - Say Woof for 2 seconds\n  - Play sound growl\n\n**Sprite 3: Background**\n\n- No blocks",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]",
+      "timestamp": 1730408188.140496,
+      "semantic_similarity": 0.6151591539382935
+    },
+    {
+      "prompt": "Analyze Scratch project 16",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked**\n    * **Play sound** meow\n    * **Move** 10 steps\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** 15 degrees\n    * **Wait** 1 second\n    * **Say** Hello for 2 seconds\n    * **Hide**\n\n**Sprite 2: Dog**\n\n* **When green flag clicked**\n    * **Move** 10 steps\n    * **Repeat** 10 times\n        * **Move** 10 steps\n        * **Turn** -15 degrees\n    * **Wait** 1 second\n    * **Say** Woof for 2 seconds\n    * **Hide**\n\n**Sprite 3: Background**\n\n* **When green flag clicked**\n    * **Set background** to Forest\n    * **Play sound** crickets",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]",
+      "timestamp": 1730408193.6055756,
+      "semantic_similarity": 0.6314210891723633
+    },
+    {
+      "prompt": "Analyze Scratch project 17",
+      "generated": "**Sprite 1: Cat**\n\n- When green flag clicked\n    - Play sound meow\n    - Repeat until <touching color?>\n        - Move 10 steps\n        - Turn 15 degrees\n    - Stop all sounds\n\n**Sprite 2: Mouse**\n\n- When green flag clicked\n    - Glide 1 sec to x: (random from -240 to 240) y: (random from -180 to 180)\n    - Repeat until <touching color?>\n        - Move 10 steps\n        - Turn 15 degrees\n    - Stop all sounds",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_repeat: [360]\n    motion_turnright: [1]\n    motion_movensteps: [1]\n  motion_pointindirection: [90]\n  motion_movenditsteps: [200]\n  control_wait: [2]\n  motion_pointindirection: [-90]\n  motion_movenditsteps: [200]",
+      "timestamp": 1730408198.2001276,
+      "semantic_similarity": 0.6170366406440735
+    },
+    {
+      "prompt": "Analyze Scratch project 18",
+      "generated": "**Sprite 1: Cat**\n\n* **When green flag clicked:**\n    * Play sound \"meow\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n* **When space key pressed:**\n    * Play sound \"purr\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n\n**Sprite 2: Dog**\n\n* **When green flag clicked:**\n    * Play sound \"bark\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees\n* **When space key pressed:**\n    * Play sound \"growl\"\n    * Move 10 steps\n    * Turn 15 degrees\n    * Repeat 10 times:\n        * Move 10 steps\n        * Turn 15 degrees",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]",
+      "timestamp": 1730408204.0863402,
+      "semantic_similarity": 0.5612332224845886
+    },
+    {
+      "prompt": "Analyze Scratch project 19",
+      "generated": "**Sprite 1: Cat**\n\n- When green flag clicked\n  - Play sound meow\n  - Set size to 100%\n  - Go to x: 0 y: 0\n  - Repeat until <touching color?>\n    - Move 10 steps\n  - Say Hello for 2 seconds\n  - Play sound purr\n  - Set size to 50%\n\n**Sprite 2: Dog**\n\n- When green flag clicked\n  - Play sound bark\n  - Set size to 100%\n  - Go to x: 0 y: 0\n  - Repeat until <touching color?>\n    - Move 10 steps\n  - Say Woof for 2 seconds\n  - Play sound growl\n  - Set size to 50%\n\n**Sprite 3: Background**\n\n- When green flag clicked\n  - Set backdrop to Forest\n  - Play sound birds",
+      "expected": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]",
+      "timestamp": 1730408209.4644513,
+      "semantic_similarity": 0.5403132438659668
+    }
+  ],
+  "total_evaluated": 20,
+  "avg_semantic_similarity": 0.5982219338417053,
+  "timestamp": 1730408209
+}
