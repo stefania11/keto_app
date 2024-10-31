@@ -19,3 +19,579 @@ Claude Evaluation Status:
 Gemini Evaluation Status:
 2024-10-31 20:56:52,086 - INFO - Total evaluated: 20/30
 2024-10-31 20:56:52,087 - INFO - Average similarity: 0.5982
+2024-10-31 20:57:22,088 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:57:22,089 - INFO - Total evaluated: 30/30
+2024-10-31 20:57:22,089 - INFO - Average similarity: 0.5495
+2024-10-31 20:57:22,091 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:57:22,091 - INFO - Total evaluated: 20/30
+2024-10-31 20:57:22,092 - INFO - Average similarity: 0.5982
+2024-10-31 20:57:52,094 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:57:52,094 - INFO - Total evaluated: 30/30
+2024-10-31 20:57:52,094 - INFO - Average similarity: 0.5495
+2024-10-31 20:57:52,095 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:57:52,095 - INFO - Total evaluated: 20/30
+2024-10-31 20:57:52,095 - INFO - Average similarity: 0.5982
+2024-10-31 20:58:22,097 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:58:22,097 - INFO - Total evaluated: 30/30
+2024-10-31 20:58:22,098 - INFO - Average similarity: 0.5495
+2024-10-31 20:58:22,099 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:58:22,100 - INFO - Total evaluated: 30/30
+2024-10-31 20:58:22,100 - INFO - Average similarity: 0.5980
+2024-10-31 20:58:52,102 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:58:52,102 - INFO - Total evaluated: 30/30
+2024-10-31 20:58:52,103 - INFO - Average similarity: 0.5495
+2024-10-31 20:58:52,104 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:58:52,104 - INFO - Total evaluated: 30/30
+2024-10-31 20:58:52,105 - INFO - Average similarity: 0.5980
+2024-10-31 20:59:22,106 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:59:22,107 - INFO - Total evaluated: 30/30
+2024-10-31 20:59:22,107 - INFO - Average similarity: 0.5495
+2024-10-31 20:59:22,108 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:59:22,109 - INFO - Total evaluated: 30/30
+2024-10-31 20:59:22,109 - INFO - Average similarity: 0.5980
+2024-10-31 20:59:52,111 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:59:52,111 - INFO - Total evaluated: 30/30
+2024-10-31 20:59:52,112 - INFO - Average similarity: 0.5495
+2024-10-31 20:59:52,113 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:59:52,114 - INFO - Total evaluated: 30/30
+2024-10-31 20:59:52,114 - INFO - Average similarity: 0.5980
+2024-10-31 21:00:22,116 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:00:22,117 - INFO - Total evaluated: 30/30
+2024-10-31 21:00:22,118 - INFO - Average similarity: 0.5495
+2024-10-31 21:00:22,119 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:00:22,120 - INFO - Total evaluated: 30/30
+2024-10-31 21:00:22,120 - INFO - Average similarity: 0.5980
+2024-10-31 21:00:52,122 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:00:52,123 - INFO - Total evaluated: 30/30
+2024-10-31 21:00:52,123 - INFO - Average similarity: 0.5495
+2024-10-31 21:00:52,125 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:00:52,125 - INFO - Total evaluated: 30/30
+2024-10-31 21:00:52,125 - INFO - Average similarity: 0.5980
+2024-10-31 21:01:22,128 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:01:22,129 - INFO - Total evaluated: 30/30
+2024-10-31 21:01:22,129 - INFO - Average similarity: 0.5495
+2024-10-31 21:01:22,130 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:01:22,131 - INFO - Total evaluated: 30/30
+2024-10-31 21:01:22,131 - INFO - Average similarity: 0.5980
+2024-10-31 21:01:52,133 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:01:52,134 - INFO - Total evaluated: 30/30
+2024-10-31 21:01:52,134 - INFO - Average similarity: 0.5495
+2024-10-31 21:01:52,135 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:01:52,135 - INFO - Total evaluated: 30/30
+2024-10-31 21:01:52,135 - INFO - Average similarity: 0.5980
+2024-10-31 21:02:22,137 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:02:22,138 - INFO - Total evaluated: 30/30
+2024-10-31 21:02:22,138 - INFO - Average similarity: 0.5495
+2024-10-31 21:02:22,140 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:02:22,141 - INFO - Total evaluated: 30/30
+2024-10-31 21:02:22,141 - INFO - Average similarity: 0.5980
+2024-10-31 21:02:52,143 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:02:52,144 - INFO - Total evaluated: 30/30
+2024-10-31 21:02:52,144 - INFO - Average similarity: 0.5495
+2024-10-31 21:02:52,145 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:02:52,146 - INFO - Total evaluated: 30/30
+2024-10-31 21:02:52,146 - INFO - Average similarity: 0.5980
+2024-10-31 21:03:22,148 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:03:22,149 - INFO - Total evaluated: 30/30
+2024-10-31 21:03:22,149 - INFO - Average similarity: 0.5495
+2024-10-31 21:03:22,151 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:03:22,151 - INFO - Total evaluated: 30/30
+2024-10-31 21:03:22,152 - INFO - Average similarity: 0.5980
+2024-10-31 21:03:52,153 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:03:52,154 - INFO - Total evaluated: 30/30
+2024-10-31 21:03:52,155 - INFO - Average similarity: 0.5495
+2024-10-31 21:03:52,156 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:03:52,157 - INFO - Total evaluated: 30/30
+2024-10-31 21:03:52,158 - INFO - Average similarity: 0.5980
+2024-10-31 21:04:22,160 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:04:22,160 - INFO - Total evaluated: 30/30
+2024-10-31 21:04:22,160 - INFO - Average similarity: 0.5495
+2024-10-31 21:04:22,162 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:04:22,163 - INFO - Total evaluated: 30/30
+2024-10-31 21:04:22,163 - INFO - Average similarity: 0.5980
+2024-10-31 21:04:52,165 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:04:52,165 - INFO - Total evaluated: 30/30
+2024-10-31 21:04:52,165 - INFO - Average similarity: 0.5495
+2024-10-31 21:04:52,166 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:04:52,167 - INFO - Total evaluated: 30/30
+2024-10-31 21:04:52,167 - INFO - Average similarity: 0.5980
+2024-10-31 21:05:22,168 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:05:22,169 - INFO - Total evaluated: 30/30
+2024-10-31 21:05:22,170 - INFO - Average similarity: 0.5495
+2024-10-31 21:05:22,171 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:05:22,172 - INFO - Total evaluated: 30/30
+2024-10-31 21:05:22,172 - INFO - Average similarity: 0.5980
+2024-10-31 21:05:52,174 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:05:52,174 - INFO - Total evaluated: 30/30
+2024-10-31 21:05:52,175 - INFO - Average similarity: 0.5495
+2024-10-31 21:05:52,176 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:05:52,176 - INFO - Total evaluated: 30/30
+2024-10-31 21:05:52,176 - INFO - Average similarity: 0.5980
+2024-10-31 21:06:22,178 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:06:22,178 - INFO - Total evaluated: 30/30
+2024-10-31 21:06:22,179 - INFO - Average similarity: 0.5495
+2024-10-31 21:06:22,180 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:06:22,180 - INFO - Total evaluated: 30/30
+2024-10-31 21:06:22,180 - INFO - Average similarity: 0.5980
+2024-10-31 21:06:52,182 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:06:52,183 - INFO - Total evaluated: 30/30
+2024-10-31 21:06:52,183 - INFO - Average similarity: 0.5495
+2024-10-31 21:06:52,185 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:06:52,185 - INFO - Total evaluated: 30/30
+2024-10-31 21:06:52,186 - INFO - Average similarity: 0.5980
+2024-10-31 21:07:22,187 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:07:22,188 - INFO - Total evaluated: 30/30
+2024-10-31 21:07:22,189 - INFO - Average similarity: 0.5495
+2024-10-31 21:07:22,190 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:07:22,191 - INFO - Total evaluated: 30/30
+2024-10-31 21:07:22,191 - INFO - Average similarity: 0.5980
+2024-10-31 21:07:52,193 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:07:52,194 - INFO - Total evaluated: 30/30
+2024-10-31 21:07:52,194 - INFO - Average similarity: 0.5495
+2024-10-31 21:07:52,195 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:07:52,196 - INFO - Total evaluated: 30/30
+2024-10-31 21:07:52,196 - INFO - Average similarity: 0.5980
+2024-10-31 21:08:22,198 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:08:22,199 - INFO - Total evaluated: 30/30
+2024-10-31 21:08:22,199 - INFO - Average similarity: 0.5495
+2024-10-31 21:08:22,201 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:08:22,201 - INFO - Total evaluated: 30/30
+2024-10-31 21:08:22,202 - INFO - Average similarity: 0.5980
+2024-10-31 21:08:52,204 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:08:52,204 - INFO - Total evaluated: 30/30
+2024-10-31 21:08:52,204 - INFO - Average similarity: 0.5495
+2024-10-31 21:08:52,205 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:08:52,205 - INFO - Total evaluated: 30/30
+2024-10-31 21:08:52,206 - INFO - Average similarity: 0.5980
+2024-10-31 21:09:22,207 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:09:22,208 - INFO - Total evaluated: 30/30
+2024-10-31 21:09:22,209 - INFO - Average similarity: 0.5495
+2024-10-31 21:09:22,210 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:09:22,211 - INFO - Total evaluated: 30/30
+2024-10-31 21:09:22,211 - INFO - Average similarity: 0.5980
+2024-10-31 21:09:52,213 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:09:52,214 - INFO - Total evaluated: 30/30
+2024-10-31 21:09:52,214 - INFO - Average similarity: 0.5495
+2024-10-31 21:09:52,215 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:09:52,216 - INFO - Total evaluated: 30/30
+2024-10-31 21:09:52,216 - INFO - Average similarity: 0.5980
+2024-10-31 21:10:22,218 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:10:22,219 - INFO - Total evaluated: 30/30
+2024-10-31 21:10:22,219 - INFO - Average similarity: 0.5495
+2024-10-31 21:10:22,220 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:10:22,220 - INFO - Total evaluated: 30/30
+2024-10-31 21:10:22,221 - INFO - Average similarity: 0.5980
+2024-10-31 21:10:52,222 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:10:52,223 - INFO - Total evaluated: 30/30
+2024-10-31 21:10:52,224 - INFO - Average similarity: 0.5495
+2024-10-31 21:10:52,225 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:10:52,226 - INFO - Total evaluated: 30/30
+2024-10-31 21:10:52,226 - INFO - Average similarity: 0.5980
+2024-10-31 21:11:22,345 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:11:22,350 - INFO - Total evaluated: 30/30
+2024-10-31 21:11:22,359 - INFO - Average similarity: 0.5495
+2024-10-31 21:11:22,377 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:11:22,381 - INFO - Total evaluated: 30/30
+2024-10-31 21:11:22,386 - INFO - Average similarity: 0.5980
+2024-10-31 21:11:52,392 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:11:52,392 - INFO - Total evaluated: 30/30
+2024-10-31 21:11:52,392 - INFO - Average similarity: 0.5495
+2024-10-31 21:11:52,394 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:11:52,394 - INFO - Total evaluated: 30/30
+2024-10-31 21:11:52,394 - INFO - Average similarity: 0.5980
+2024-10-31 21:12:22,396 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:12:22,396 - INFO - Total evaluated: 30/30
+2024-10-31 21:12:22,396 - INFO - Average similarity: 0.5495
+2024-10-31 21:12:22,397 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:12:22,397 - INFO - Total evaluated: 30/30
+2024-10-31 21:12:22,398 - INFO - Average similarity: 0.5980
+2024-10-31 21:12:52,399 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:12:52,400 - INFO - Total evaluated: 30/30
+2024-10-31 21:12:52,400 - INFO - Average similarity: 0.5495
+2024-10-31 21:12:52,402 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:12:52,403 - INFO - Total evaluated: 30/30
+2024-10-31 21:12:52,403 - INFO - Average similarity: 0.5980
+2024-10-31 21:13:22,405 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:13:22,406 - INFO - Total evaluated: 30/30
+2024-10-31 21:13:22,406 - INFO - Average similarity: 0.5495
+2024-10-31 21:13:22,408 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:13:22,409 - INFO - Total evaluated: 30/30
+2024-10-31 21:13:22,409 - INFO - Average similarity: 0.5980
+2024-10-31 21:13:52,411 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:13:52,411 - INFO - Total evaluated: 30/30
+2024-10-31 21:13:52,412 - INFO - Average similarity: 0.5495
+2024-10-31 21:13:52,413 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:13:52,413 - INFO - Total evaluated: 30/30
+2024-10-31 21:13:52,413 - INFO - Average similarity: 0.5980
+2024-10-31 21:14:22,415 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:14:22,415 - INFO - Total evaluated: 30/30
+2024-10-31 21:14:22,416 - INFO - Average similarity: 0.5495
+2024-10-31 21:14:22,417 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:14:22,417 - INFO - Total evaluated: 30/30
+2024-10-31 21:14:22,417 - INFO - Average similarity: 0.5980
+2024-10-31 21:14:52,419 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:14:52,419 - INFO - Total evaluated: 30/30
+2024-10-31 21:14:52,419 - INFO - Average similarity: 0.5495
+2024-10-31 21:14:52,420 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:14:52,420 - INFO - Total evaluated: 30/30
+2024-10-31 21:14:52,421 - INFO - Average similarity: 0.5980
+2024-10-31 21:15:22,422 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:15:22,423 - INFO - Total evaluated: 30/30
+2024-10-31 21:15:22,424 - INFO - Average similarity: 0.5495
+2024-10-31 21:15:22,425 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:15:22,426 - INFO - Total evaluated: 30/30
+2024-10-31 21:15:22,426 - INFO - Average similarity: 0.5980
+2024-10-31 21:15:52,428 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:15:52,428 - INFO - Total evaluated: 30/30
+2024-10-31 21:15:52,429 - INFO - Average similarity: 0.5495
+2024-10-31 21:15:52,430 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:15:52,430 - INFO - Total evaluated: 30/30
+2024-10-31 21:15:52,430 - INFO - Average similarity: 0.5980
+2024-10-31 21:16:22,432 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:16:22,433 - INFO - Total evaluated: 30/30
+2024-10-31 21:16:22,433 - INFO - Average similarity: 0.5495
+2024-10-31 21:16:22,434 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:16:22,434 - INFO - Total evaluated: 30/30
+2024-10-31 21:16:22,435 - INFO - Average similarity: 0.5980
+2024-10-31 21:16:52,436 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:16:52,437 - INFO - Total evaluated: 30/30
+2024-10-31 21:16:52,438 - INFO - Average similarity: 0.5495
+2024-10-31 21:16:52,439 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:16:52,440 - INFO - Total evaluated: 30/30
+2024-10-31 21:16:52,440 - INFO - Average similarity: 0.5980
+2024-10-31 21:17:22,442 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:17:22,443 - INFO - Total evaluated: 30/30
+2024-10-31 21:17:22,443 - INFO - Average similarity: 0.5495
+2024-10-31 21:17:22,445 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:17:22,445 - INFO - Total evaluated: 30/30
+2024-10-31 21:17:22,446 - INFO - Average similarity: 0.5980
+2024-10-31 21:17:52,447 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:17:52,448 - INFO - Total evaluated: 30/30
+2024-10-31 21:17:52,448 - INFO - Average similarity: 0.5495
+2024-10-31 21:17:52,450 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:17:52,450 - INFO - Total evaluated: 30/30
+2024-10-31 21:17:52,451 - INFO - Average similarity: 0.5980
+2024-10-31 21:18:22,453 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:18:22,453 - INFO - Total evaluated: 30/30
+2024-10-31 21:18:22,454 - INFO - Average similarity: 0.5495
+2024-10-31 21:18:22,455 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:18:22,456 - INFO - Total evaluated: 30/30
+2024-10-31 21:18:22,456 - INFO - Average similarity: 0.5980
+2024-10-31 21:18:52,458 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:18:52,458 - INFO - Total evaluated: 30/30
+2024-10-31 21:18:52,459 - INFO - Average similarity: 0.5495
+2024-10-31 21:18:52,460 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:18:52,460 - INFO - Total evaluated: 30/30
+2024-10-31 21:18:52,460 - INFO - Average similarity: 0.5980
+2024-10-31 21:19:22,462 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:19:22,463 - INFO - Total evaluated: 30/30
+2024-10-31 21:19:22,463 - INFO - Average similarity: 0.5495
+2024-10-31 21:19:22,464 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:19:22,465 - INFO - Total evaluated: 30/30
+2024-10-31 21:19:22,465 - INFO - Average similarity: 0.5980
+2024-10-31 21:19:52,467 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:19:52,468 - INFO - Total evaluated: 30/30
+2024-10-31 21:19:52,468 - INFO - Average similarity: 0.5495
+2024-10-31 21:19:52,469 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:19:52,470 - INFO - Total evaluated: 30/30
+2024-10-31 21:19:52,470 - INFO - Average similarity: 0.5980
+2024-10-31 21:20:22,472 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:20:22,473 - INFO - Total evaluated: 30/30
+2024-10-31 21:20:22,474 - INFO - Average similarity: 0.5495
+2024-10-31 21:20:22,475 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:20:22,476 - INFO - Total evaluated: 30/30
+2024-10-31 21:20:22,476 - INFO - Average similarity: 0.5980
+2024-10-31 21:20:52,478 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:20:52,478 - INFO - Total evaluated: 30/30
+2024-10-31 21:20:52,479 - INFO - Average similarity: 0.5495
+2024-10-31 21:20:52,480 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:20:52,480 - INFO - Total evaluated: 30/30
+2024-10-31 21:20:52,480 - INFO - Average similarity: 0.5980
+2024-10-31 21:21:22,482 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:21:22,483 - INFO - Total evaluated: 30/30
+2024-10-31 21:21:22,484 - INFO - Average similarity: 0.5495
+2024-10-31 21:21:22,485 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:21:22,486 - INFO - Total evaluated: 30/30
+2024-10-31 21:21:22,486 - INFO - Average similarity: 0.5980
+2024-10-31 21:21:52,488 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:21:52,489 - INFO - Total evaluated: 30/30
+2024-10-31 21:21:52,489 - INFO - Average similarity: 0.5495
+2024-10-31 21:21:52,491 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:21:52,492 - INFO - Total evaluated: 30/30
+2024-10-31 21:21:52,492 - INFO - Average similarity: 0.5980
+2024-10-31 21:22:22,494 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:22:22,494 - INFO - Total evaluated: 30/30
+2024-10-31 21:22:22,495 - INFO - Average similarity: 0.5495
+2024-10-31 21:22:22,496 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:22:22,496 - INFO - Total evaluated: 30/30
+2024-10-31 21:22:22,496 - INFO - Average similarity: 0.5980
+2024-10-31 21:22:52,498 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:22:52,499 - INFO - Total evaluated: 30/30
+2024-10-31 21:22:52,500 - INFO - Average similarity: 0.5495
+2024-10-31 21:22:52,501 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:22:52,502 - INFO - Total evaluated: 30/30
+2024-10-31 21:22:52,502 - INFO - Average similarity: 0.5980
+2024-10-31 21:23:22,504 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:23:22,505 - INFO - Total evaluated: 30/30
+2024-10-31 21:23:22,505 - INFO - Average similarity: 0.5495
+2024-10-31 21:23:22,507 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:23:22,508 - INFO - Total evaluated: 30/30
+2024-10-31 21:23:22,508 - INFO - Average similarity: 0.5980
+2024-10-31 21:23:52,510 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:23:52,511 - INFO - Total evaluated: 30/30
+2024-10-31 21:23:52,511 - INFO - Average similarity: 0.5495
+2024-10-31 21:23:52,512 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:23:52,513 - INFO - Total evaluated: 30/30
+2024-10-31 21:23:52,513 - INFO - Average similarity: 0.5980
+2024-10-31 21:24:22,515 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:24:22,516 - INFO - Total evaluated: 30/30
+2024-10-31 21:24:22,517 - INFO - Average similarity: 0.5495
+2024-10-31 21:24:22,518 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:24:22,519 - INFO - Total evaluated: 30/30
+2024-10-31 21:24:22,519 - INFO - Average similarity: 0.5980
+2024-10-31 21:24:52,521 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:24:52,521 - INFO - Total evaluated: 30/30
+2024-10-31 21:24:52,521 - INFO - Average similarity: 0.5495
+2024-10-31 21:24:52,523 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:24:52,523 - INFO - Total evaluated: 30/30
+2024-10-31 21:24:52,523 - INFO - Average similarity: 0.5980
+2024-10-31 21:25:22,525 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:25:22,525 - INFO - Total evaluated: 30/30
+2024-10-31 21:25:22,525 - INFO - Average similarity: 0.5495
+2024-10-31 21:25:22,528 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:25:22,528 - INFO - Total evaluated: 30/30
+2024-10-31 21:25:22,528 - INFO - Average similarity: 0.5980
+2024-10-31 21:25:52,530 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:25:52,530 - INFO - Total evaluated: 30/30
+2024-10-31 21:25:52,531 - INFO - Average similarity: 0.5495
+2024-10-31 21:25:52,532 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:25:52,533 - INFO - Total evaluated: 30/30
+2024-10-31 21:25:52,533 - INFO - Average similarity: 0.5980
+2024-10-31 21:26:22,534 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:26:22,535 - INFO - Total evaluated: 30/30
+2024-10-31 21:26:22,535 - INFO - Average similarity: 0.5495
+2024-10-31 21:26:22,537 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:26:22,537 - INFO - Total evaluated: 30/30
+2024-10-31 21:26:22,538 - INFO - Average similarity: 0.5980
+2024-10-31 21:26:52,539 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:26:52,540 - INFO - Total evaluated: 30/30
+2024-10-31 21:26:52,540 - INFO - Average similarity: 0.5495
+2024-10-31 21:26:52,541 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:26:52,542 - INFO - Total evaluated: 30/30
+2024-10-31 21:26:52,542 - INFO - Average similarity: 0.5980
+2024-10-31 21:27:22,544 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:27:22,544 - INFO - Total evaluated: 30/30
+2024-10-31 21:27:22,545 - INFO - Average similarity: 0.5495
+2024-10-31 21:27:22,546 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:27:22,547 - INFO - Total evaluated: 30/30
+2024-10-31 21:27:22,547 - INFO - Average similarity: 0.5980
+2024-10-31 21:27:52,549 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:27:52,550 - INFO - Total evaluated: 30/30
+2024-10-31 21:27:52,551 - INFO - Average similarity: 0.5495
+2024-10-31 21:27:52,552 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:27:52,553 - INFO - Total evaluated: 30/30
+2024-10-31 21:27:52,553 - INFO - Average similarity: 0.5980
+2024-10-31 21:28:22,555 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:28:22,556 - INFO - Total evaluated: 30/30
+2024-10-31 21:28:22,556 - INFO - Average similarity: 0.5495
+2024-10-31 21:28:22,557 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:28:22,557 - INFO - Total evaluated: 30/30
+2024-10-31 21:28:22,558 - INFO - Average similarity: 0.5980
+2024-10-31 21:28:52,559 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:28:52,560 - INFO - Total evaluated: 30/30
+2024-10-31 21:28:52,561 - INFO - Average similarity: 0.5495
+2024-10-31 21:28:52,562 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:28:52,563 - INFO - Total evaluated: 30/30
+2024-10-31 21:28:52,563 - INFO - Average similarity: 0.5980
+2024-10-31 21:29:22,565 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:29:22,566 - INFO - Total evaluated: 30/30
+2024-10-31 21:29:22,566 - INFO - Average similarity: 0.5495
+2024-10-31 21:29:22,567 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:29:22,568 - INFO - Total evaluated: 30/30
+2024-10-31 21:29:22,568 - INFO - Average similarity: 0.5980
+2024-10-31 21:29:52,570 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:29:52,571 - INFO - Total evaluated: 30/30
+2024-10-31 21:29:52,571 - INFO - Average similarity: 0.5495
+2024-10-31 21:29:52,572 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:29:52,573 - INFO - Total evaluated: 30/30
+2024-10-31 21:29:52,573 - INFO - Average similarity: 0.5980
+2024-10-31 21:30:22,575 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:30:22,576 - INFO - Total evaluated: 30/30
+2024-10-31 21:30:22,576 - INFO - Average similarity: 0.5495
+2024-10-31 21:30:22,577 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:30:22,578 - INFO - Total evaluated: 30/30
+2024-10-31 21:30:22,579 - INFO - Average similarity: 0.5980
+2024-10-31 21:30:52,580 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:30:52,581 - INFO - Total evaluated: 30/30
+2024-10-31 21:30:52,582 - INFO - Average similarity: 0.5495
+2024-10-31 21:30:52,583 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:30:52,583 - INFO - Total evaluated: 30/30
+2024-10-31 21:30:52,584 - INFO - Average similarity: 0.5980
+2024-10-31 21:31:22,586 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:31:22,587 - INFO - Total evaluated: 30/30
+2024-10-31 21:31:22,587 - INFO - Average similarity: 0.5495
+2024-10-31 21:31:22,589 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:31:22,589 - INFO - Total evaluated: 30/30
+2024-10-31 21:31:22,590 - INFO - Average similarity: 0.5980
+2024-10-31 21:31:52,592 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:31:52,592 - INFO - Total evaluated: 30/30
+2024-10-31 21:31:52,592 - INFO - Average similarity: 0.5495
+2024-10-31 21:31:52,593 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:31:52,594 - INFO - Total evaluated: 30/30
+2024-10-31 21:31:52,594 - INFO - Average similarity: 0.5980
+2024-10-31 21:32:22,596 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:32:22,596 - INFO - Total evaluated: 30/30
+2024-10-31 21:32:22,596 - INFO - Average similarity: 0.5495
+2024-10-31 21:32:22,597 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:32:22,597 - INFO - Total evaluated: 30/30
+2024-10-31 21:32:22,597 - INFO - Average similarity: 0.5980
+2024-10-31 21:32:52,599 - INFO - 
+Claude Evaluation Status:
+2024-10-31 21:32:52,599 - INFO - Total evaluated: 30/30
+2024-10-31 21:32:52,599 - INFO - Average similarity: 0.5495
+2024-10-31 21:32:52,600 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 21:32:52,601 - INFO - Total evaluated: 30/30
+2024-10-31 21:32:52,601 - INFO - Average similarity: 0.5980

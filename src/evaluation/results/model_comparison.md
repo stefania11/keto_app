@@ -1,45 +1,13 @@
-# Model Comparison Report
+# Model Evaluation Comparison
+Generated at: 2024-10-31 21:32:28
 
-## Overview
-This report compares the performance of different models on the Scratch project analysis task.
+| Model          | Projects Evaluated   |   Average Semantic Similarity | Status   |
+|:---------------|:---------------------|------------------------------:|:---------|
+| Claude-3-haiku | 30/30                |                        0.5495 | Complete |
+| Gemini-Pro     | 30/30                |                        0.598  | Complete |
+| DeepSeek-Coder | 30/30                |                        0.6156 | Complete |
 
-## Models Evaluated
-1. DeepSeek Chat
-2. Claude
-3. GPT-2 (Fine-tuned)
-4. CodeLlama (Fine-tuned)
-
-## Evaluation Metrics
-- Exact Match Accuracy
-- Semantic Similarity
-- Response Format Consistency
-- Processing Speed
-
-## Current Results
-
-### DeepSeek Chat
-- Status: Complete
-- Total Evaluated: 30/30
-- Results pending from analysis script
-
-### Claude
-- Status: In Progress
-- Progress: ~2.2% (298/13256)
-- Results pending from analysis script
-
-### GPT-2
-- Status: Training
-- Progress: 77% (4565/5922 iterations)
-- Results pending completion
-
-### CodeLlama
-- Status: Initializing Fine-tuning
-- Progress: Setting up training
-- Results pending completion
-
-## Next Steps
-1. Complete all evaluations
-2. Generate final metrics
-3. Compare model performances
-4. Provide recommendations
-
+## Notes:
+- All evaluations performed on the same set of 30 medium-complexity projects
+- Semantic similarity calculated using SentenceTransformer (all-MiniLM-L6-v2)
+- All models configured with temperature=0.2 for consistent output format
