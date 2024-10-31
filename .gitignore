@@ -27,3 +27,7 @@ src/data/*
 # Keep specific files
 !requirements.txt
 !README.md
+# Generated files and directories
+ScratchDataset/
+test_setup.py
+src/evaluation/evaluate_deepseek.py
