@@ -1,0 +1,339 @@
+2024-10-31 19:03:06,280 - ERROR - Error in analysis: invalid literal for int() with base 10: '3%'
+2024-10-31 19:04:06,313 - ERROR - Error in analysis: invalid literal for int() with base 10: '3%'
+2024-10-31 19:05:06,346 - ERROR - Error in analysis: invalid literal for int() with base 10: '3%'
+2024-10-31 19:05:18,977 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:05:18) ===
+
+1. Claude Evaluation:
+   - Progress: 2190/13256 (16.5%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 25/30 (83.3%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6143
+
+3. GPT-2 Training:   - Progress: 335/9822 (3.4%)
+   - Recent Loss Values: 33.6613, 33.6613
+
+=== End Report ===
+2024-10-31 19:06:19,013 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:06:18) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 25/30 (83.3%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6143
+
+3. GPT-2 Training:   - Progress: 343/9822 (3.5%)
+   - Recent Loss Values: 36.0180, 36.0180
+
+=== End Report ===
+2024-10-31 19:07:19,046 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:07:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 25/30 (83.3%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6143
+
+3. GPT-2 Training:   - Progress: 230/5922 (3.9%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:08:19,079 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:08:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 947/5922 (16.0%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:09:19,112 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:09:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 1716/5922 (29.0%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:10:19,142 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:10:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 2433/5922 (41.1%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:11:19,176 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:11:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 3137/5922 (53.0%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:12:19,210 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:12:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 3867/5922 (65.3%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:13:19,244 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:13:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 4627/5922 (78.1%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:14:19,276 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:14:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 5393/5922 (91.1%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:15:19,351 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:15:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 351/9822 (3.6%)
+   - Recent Loss Values: 34.5788, 34.5788
+
+=== End Report ===
+2024-10-31 19:16:19,385 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:16:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 359/9822 (3.7%)
+   - Recent Loss Values: 37.7904, 37.7904
+
+=== End Report ===
+2024-10-31 19:17:19,421 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:17:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 366/9822 (3.7%)
+   - Recent Loss Values: 37.7336, 37.7336
+
+=== End Report ===
+2024-10-31 19:18:19,454 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:18:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 374/9822 (3.8%)
+   - Recent Loss Values: 45.4978, 45.4978
+
+=== End Report ===
+2024-10-31 19:19:19,490 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:19:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 382/9822 (3.9%)
+   - Recent Loss Values: 36.4840, 36.4840
+
+=== End Report ===
+2024-10-31 19:20:19,525 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:20:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 389/9822 (4.0%)
+   - Recent Loss Values: 33.9440, 33.9440
+
+=== End Report ===
+2024-10-31 19:21:19,559 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:21:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 397/9822 (4.0%)
+   - Recent Loss Values: 37.5106, 37.5106
+
+=== End Report ===
+2024-10-31 19:22:19,595 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:22:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 495/5922 (8.4%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:23:19,631 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:23:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 1117/5922 (18.9%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:24:19,668 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:24:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 1756/5922 (29.7%)
+   - Recent Loss Values: 
+
+=== End Report ===
+2024-10-31 19:25:19,737 - INFO - 
+=== Comprehensive Analysis Report (2024-10-31 19:25:19) ===
+
+1. Claude Evaluation:
+   - Progress: 2210/13256 (16.7%)
+   - Average Similarity: 0.0000
+   - Recent Similarities: 0.0000, 0.0000, 0.0000, 0.0000, 0.0000
+
+2. DeepSeek Evaluation:   - Progress: 30/30 (100.0%)
+   - Exact Match Accuracy: 0.00%
+   - Average Similarity: 0.6156
+
+3. GPT-2 Training:   - Progress: 2510/5922 (42.4%)
+   - Recent Loss Values: 
+
+=== End Report ===

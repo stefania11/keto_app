@@ -1,0 +1,60 @@
+2024-10-31 19:25:44,555 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '47%'
+2024-10-31 19:25:44,559 - INFO - === Unified Progress Report (2024-10-31 19:25:44) ===
+
+Claude Evaluation:
+- Progress: 2400/13256 (18.1%)
+- Average Similarity: 0.0766
+- Estimated Completion: 0h 0m
+
+DeepSeek Evaluation:
+- Status: Complete (30/30 projects)
+- Average Similarity: 0.6156
+- Exact Match Accuracy: 0.00%
+
+=== End Report ===
+
+2024-10-31 19:25:44,873 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '47%'
+2024-10-31 19:25:44,879 - INFO - === Unified Progress Report (2024-10-31 19:25:44) ===
+
+Claude Evaluation:
+- Progress: 2400/13256 (18.1%)
+- Average Similarity: 0.0766
+- Estimated Completion: 0h 0m
+
+DeepSeek Evaluation:
+- Status: Complete (30/30 projects)
+- Average Similarity: 0.6156
+- Exact Match Accuracy: 0.00%
+
+=== End Report ===
+
+2024-10-31 19:26:44,595 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '58%'
+2024-10-31 19:26:44,597 - INFO - === Unified Progress Report (2024-10-31 19:26:44) ===
+
+Claude Evaluation:
+- Progress: 2400/13256 (18.1%)
+- Average Similarity: 0.0766
+- Estimated Completion: 0h 4m
+
+DeepSeek Evaluation:
+- Status: Complete (30/30 projects)
+- Average Similarity: 0.6156
+- Exact Match Accuracy: 0.00%
+
+=== End Report ===
+
+2024-10-31 19:26:44,913 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '58%'
+2024-10-31 19:26:44,915 - INFO - === Unified Progress Report (2024-10-31 19:26:44) ===
+
+Claude Evaluation:
+- Progress: 2400/13256 (18.1%)
+- Average Similarity: 0.0766
+- Estimated Completion: 0h 4m
+
+DeepSeek Evaluation:
+- Status: Complete (30/30 projects)
+- Average Similarity: 0.6156
+- Exact Match Accuracy: 0.00%
+
+=== End Report ===
+

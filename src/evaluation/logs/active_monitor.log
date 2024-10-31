@@ -1,0 +1,3097 @@
+2024-10-31 19:26:58,453 - INFO - Starting active process monitoring
+2024-10-31 19:26:58,639 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '61%'
+2024-10-31 19:26:58,641 - INFO - === Active Process Status Report (2024-10-31 19:26:58) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: No
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:27:58,800 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '74%'
+2024-10-31 19:27:58,802 - INFO - === Active Process Status Report (2024-10-31 19:27:58) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: No
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:28:58,972 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '87%'
+2024-10-31 19:28:58,973 - INFO - === Active Process Status Report (2024-10-31 19:28:58) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:29:59,138 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '100%'
+2024-10-31 19:29:59,140 - INFO - === Active Process Status Report (2024-10-31 19:29:58) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:30:59,414 - INFO - === Active Process Status Report (2024-10-31 19:30:59) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:31:59,644 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '4%'
+2024-10-31 19:31:59,646 - INFO - === Active Process Status Report (2024-10-31 19:31:59) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:33:00,148 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '4%'
+2024-10-31 19:33:00,154 - INFO - === Active Process Status Report (2024-10-31 19:32:59) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:34:00,302 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: 'Map: 100%'
+2024-10-31 19:34:00,303 - INFO - === Active Process Status Report (2024-10-31 19:34:00) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:35:00,447 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '4%'
+2024-10-31 19:35:00,450 - INFO - === Active Process Status Report (2024-10-31 19:35:00) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:36:00,591 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:36:00,592 - INFO - === Active Process Status Report (2024-10-31 19:36:00) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2400/13256 (18.1%)
+   - Average Similarity: 0.0766
+   - Processing Rate: 0.16 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:37:00,742 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '3%'
+2024-10-31 19:37:00,743 - INFO - === Active Process Status Report (2024-10-31 19:37:00) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:38:00,894 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '16%'
+2024-10-31 19:38:00,895 - INFO - === Active Process Status Report (2024-10-31 19:38:00) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:39:01,050 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '29%'
+2024-10-31 19:39:01,051 - INFO - === Active Process Status Report (2024-10-31 19:39:00) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:40:01,363 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '41%'
+2024-10-31 19:40:01,366 - INFO - === Active Process Status Report (2024-10-31 19:40:01) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:41:01,513 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '50%'
+2024-10-31 19:41:01,514 - INFO - === Active Process Status Report (2024-10-31 19:41:01) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:42:01,667 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '60%'
+2024-10-31 19:42:01,668 - INFO - === Active Process Status Report (2024-10-31 19:42:01) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:43:01,823 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '71%'
+2024-10-31 19:43:01,824 - INFO - === Active Process Status Report (2024-10-31 19:43:01) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:44:01,970 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '83%'
+2024-10-31 19:44:01,971 - INFO - === Active Process Status Report (2024-10-31 19:44:01) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:45:02,338 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '95%'
+2024-10-31 19:45:02,339 - INFO - === Active Process Status Report (2024-10-31 19:45:01) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:46:02,482 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:46:02,482 - INFO - === Active Process Status Report (2024-10-31 19:46:02) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:47:02,633 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:47:02,634 - INFO - === Active Process Status Report (2024-10-31 19:47:02) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:48:02,804 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:48:02,804 - INFO - === Active Process Status Report (2024-10-31 19:48:02) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 2600/13256 (19.6%)
+   - Average Similarity: 0.1455
+   - Processing Rate: 0.31 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:49:02,940 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:49:02,941 - INFO - === Active Process Status Report (2024-10-31 19:49:02) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 10/13256 (0.1%)
+   - Average Similarity: 0.5099
+   - Processing Rate: -3.54 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:50:03,063 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:50:03,064 - INFO - === Active Process Status Report (2024-10-31 19:50:02) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 20/13256 (0.2%)
+   - Average Similarity: 0.5332
+   - Processing Rate: 0.19 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:51:03,200 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 19:51:03,201 - INFO - === Active Process Status Report (2024-10-31 19:51:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:52:03,329 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '4%'
+2024-10-31 19:52:03,330 - INFO - === Active Process Status Report (2024-10-31 19:52:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:53:03,452 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '18%'
+2024-10-31 19:53:03,453 - INFO - === Active Process Status Report (2024-10-31 19:53:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:54:03,581 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '32%'
+2024-10-31 19:54:03,582 - INFO - === Active Process Status Report (2024-10-31 19:54:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:55:03,704 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '44%'
+2024-10-31 19:55:03,705 - INFO - === Active Process Status Report (2024-10-31 19:55:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:56:03,830 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '57%'
+2024-10-31 19:56:03,831 - INFO - === Active Process Status Report (2024-10-31 19:56:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:57:03,960 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '70%'
+2024-10-31 19:57:03,961 - INFO - === Active Process Status Report (2024-10-31 19:57:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:58:04,085 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '83%'
+2024-10-31 19:58:04,086 - INFO - === Active Process Status Report (2024-10-31 19:58:03) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 19:59:04,217 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '96%'
+2024-10-31 19:59:04,218 - INFO - === Active Process Status Report (2024-10-31 19:59:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:00:04,330 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 20:00:04,331 - INFO - === Active Process Status Report (2024-10-31 20:00:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:01:04,452 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 20:01:04,454 - INFO - === Active Process Status Report (2024-10-31 20:01:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:02:04,581 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 20:02:04,582 - INFO - === Active Process Status Report (2024-10-31 20:02:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:03:04,762 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 20:03:04,763 - INFO - === Active Process Status Report (2024-10-31 20:03:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:04:04,885 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 20:04:04,886 - INFO - === Active Process Status Report (2024-10-31 20:04:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:05:05,001 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:05:05,002 - INFO - === Active Process Status Report (2024-10-31 20:05:04) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:06:05,248 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '3%'
+2024-10-31 20:06:05,255 - INFO - === Active Process Status Report (2024-10-31 20:06:05) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:07:05,480 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '14%'
+2024-10-31 20:07:05,481 - INFO - === Active Process Status Report (2024-10-31 20:07:05) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5460
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:08:05,604 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '27%'
+2024-10-31 20:08:05,604 - INFO - === Active Process Status Report (2024-10-31 20:08:05) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 20/13256 (0.2%)
+   - Average Similarity: 0.5366
+   - Processing Rate: 0.20 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:09:05,733 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '39%'
+2024-10-31 20:09:05,734 - INFO - === Active Process Status Report (2024-10-31 20:09:05) ===
+
+1. Claude Evaluation:
+   - Process Running: Yes
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:10:05,860 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '52%'
+2024-10-31 20:10:05,862 - INFO - === Active Process Status Report (2024-10-31 20:10:05) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:11:05,985 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '64%'
+2024-10-31 20:11:05,985 - INFO - === Active Process Status Report (2024-10-31 20:11:05) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:12:06,113 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '78%'
+2024-10-31 20:12:06,115 - INFO - === Active Process Status Report (2024-10-31 20:12:05) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:13:06,241 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '91%'
+2024-10-31 20:13:06,241 - INFO - === Active Process Status Report (2024-10-31 20:13:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:14:06,371 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:14:06,372 - INFO - === Active Process Status Report (2024-10-31 20:14:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:15:06,486 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:15:06,487 - INFO - === Active Process Status Report (2024-10-31 20:15:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:16:06,619 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:16:06,620 - INFO - === Active Process Status Report (2024-10-31 20:16:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:17:06,740 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:17:06,741 - INFO - === Active Process Status Report (2024-10-31 20:17:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:18:06,860 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:18:06,861 - INFO - === Active Process Status Report (2024-10-31 20:18:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:19:07,140 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:19:07,141 - INFO - === Active Process Status Report (2024-10-31 20:19:06) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:20:07,261 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:20:07,262 - INFO - === Active Process Status Report (2024-10-31 20:20:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:21:07,392 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '10%'
+2024-10-31 20:21:07,393 - INFO - === Active Process Status Report (2024-10-31 20:21:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:22:07,519 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '23%'
+2024-10-31 20:22:07,520 - INFO - === Active Process Status Report (2024-10-31 20:22:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:23:07,645 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '36%'
+2024-10-31 20:23:07,647 - INFO - === Active Process Status Report (2024-10-31 20:23:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:24:07,771 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '49%'
+2024-10-31 20:24:07,772 - INFO - === Active Process Status Report (2024-10-31 20:24:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:25:07,903 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '61%'
+2024-10-31 20:25:07,904 - INFO - === Active Process Status Report (2024-10-31 20:25:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:26:08,034 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '74%'
+2024-10-31 20:26:08,035 - INFO - === Active Process Status Report (2024-10-31 20:26:07) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:27:08,214 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '88%'
+2024-10-31 20:27:08,216 - INFO - === Active Process Status Report (2024-10-31 20:27:08) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:28:08,849 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '100%'
+2024-10-31 20:28:08,851 - INFO - === Active Process Status Report (2024-10-31 20:28:08) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:29:08,971 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:29:08,972 - INFO - === Active Process Status Report (2024-10-31 20:29:08) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:30:09,097 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:30:09,098 - INFO - === Active Process Status Report (2024-10-31 20:30:08) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:31:09,236 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:31:09,236 - INFO - === Active Process Status Report (2024-10-31 20:31:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:32:09,362 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:32:09,364 - INFO - === Active Process Status Report (2024-10-31 20:32:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:33:09,553 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '6%'
+2024-10-31 20:33:09,554 - INFO - === Active Process Status Report (2024-10-31 20:33:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:34:09,673 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:34:09,674 - INFO - === Active Process Status Report (2024-10-31 20:34:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:35:09,802 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:35:09,803 - INFO - === Active Process Status Report (2024-10-31 20:35:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:36:09,984 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '21%'
+2024-10-31 20:36:09,985 - INFO - === Active Process Status Report (2024-10-31 20:36:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:37:10,114 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '34%'
+2024-10-31 20:37:10,116 - INFO - === Active Process Status Report (2024-10-31 20:37:09) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:38:10,248 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '47%'
+2024-10-31 20:38:10,250 - INFO - === Active Process Status Report (2024-10-31 20:38:10) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:39:10,381 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '60%'
+2024-10-31 20:39:10,382 - INFO - === Active Process Status Report (2024-10-31 20:39:10) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:40:10,508 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '73%'
+2024-10-31 20:40:10,509 - INFO - === Active Process Status Report (2024-10-31 20:40:10) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:41:10,635 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '87%'
+2024-10-31 20:41:10,636 - INFO - === Active Process Status Report (2024-10-31 20:41:10) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:42:11,440 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '100%'
+2024-10-31 20:42:11,453 - INFO - === Active Process Status Report (2024-10-31 20:42:10) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:43:11,574 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:43:11,575 - INFO - === Active Process Status Report (2024-10-31 20:43:11) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:44:11,705 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:44:11,706 - INFO - === Active Process Status Report (2024-10-31 20:44:11) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:45:11,826 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:45:11,827 - INFO - === Active Process Status Report (2024-10-31 20:45:11) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:46:11,950 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:46:11,951 - INFO - === Active Process Status Report (2024-10-31 20:46:11) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:47:12,073 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:47:12,075 - INFO - === Active Process Status Report (2024-10-31 20:47:11) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:48:12,197 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:48:12,198 - INFO - === Active Process Status Report (2024-10-31 20:48:12) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:49:12,328 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '2%'
+2024-10-31 20:49:12,330 - INFO - === Active Process Status Report (2024-10-31 20:49:12) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:50:12,521 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '15%'
+2024-10-31 20:50:12,530 - INFO - === Active Process Status Report (2024-10-31 20:50:12) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:51:12,762 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '27%'
+2024-10-31 20:51:12,763 - INFO - === Active Process Status Report (2024-10-31 20:51:12) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:52:12,893 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '40%'
+2024-10-31 20:52:12,900 - INFO - === Active Process Status Report (2024-10-31 20:52:12) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:53:13,033 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '52%'
+2024-10-31 20:53:13,034 - INFO - === Active Process Status Report (2024-10-31 20:53:12) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:54:13,169 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '64%'
+2024-10-31 20:54:13,171 - INFO - === Active Process Status Report (2024-10-31 20:54:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:55:13,309 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '77%'
+2024-10-31 20:55:13,311 - INFO - === Active Process Status Report (2024-10-31 20:55:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:56:13,446 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '90%'
+2024-10-31 20:56:13,447 - INFO - === Active Process Status Report (2024-10-31 20:56:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:57:13,682 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:57:13,687 - INFO - === Active Process Status Report (2024-10-31 20:57:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:58:13,823 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:58:13,824 - INFO - === Active Process Status Report (2024-10-31 20:58:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 20:59:13,967 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 20:59:13,969 - INFO - === Active Process Status Report (2024-10-31 20:59:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:00:14,101 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 21:00:14,103 - INFO - === Active Process Status Report (2024-10-31 21:00:13) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:01:14,235 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 21:01:14,237 - INFO - === Active Process Status Report (2024-10-31 21:01:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:02:14,380 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:02:14,382 - INFO - === Active Process Status Report (2024-10-31 21:02:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:03:14,512 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:03:14,514 - INFO - === Active Process Status Report (2024-10-31 21:03:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:04:14,648 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '7%'
+2024-10-31 21:04:14,650 - INFO - === Active Process Status Report (2024-10-31 21:04:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:05:14,788 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '20%'
+2024-10-31 21:05:14,790 - INFO - === Active Process Status Report (2024-10-31 21:05:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:06:14,931 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '34%'
+2024-10-31 21:06:14,932 - INFO - === Active Process Status Report (2024-10-31 21:06:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:07:15,068 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '46%'
+2024-10-31 21:07:15,069 - INFO - === Active Process Status Report (2024-10-31 21:07:14) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:08:15,211 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '59%'
+2024-10-31 21:08:15,213 - INFO - === Active Process Status Report (2024-10-31 21:08:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:09:15,353 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '72%'
+2024-10-31 21:09:15,355 - INFO - === Active Process Status Report (2024-10-31 21:09:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:10:15,491 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '85%'
+2024-10-31 21:10:15,492 - INFO - === Active Process Status Report (2024-10-31 21:10:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:11:15,631 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '99%'
+2024-10-31 21:11:15,632 - INFO - === Active Process Status Report (2024-10-31 21:11:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:12:15,760 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:12:15,761 - INFO - === Active Process Status Report (2024-10-31 21:12:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:13:15,887 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:13:15,889 - INFO - === Active Process Status Report (2024-10-31 21:13:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:14:16,023 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:14:16,025 - INFO - === Active Process Status Report (2024-10-31 21:14:15) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:15:16,159 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:15:16,161 - INFO - === Active Process Status Report (2024-10-31 21:15:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:16:16,308 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:16:16,309 - INFO - === Active Process Status Report (2024-10-31 21:16:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:17:16,439 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:17:16,441 - INFO - === Active Process Status Report (2024-10-31 21:17:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:18:16,580 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '5%'
+2024-10-31 21:18:16,581 - INFO - === Active Process Status Report (2024-10-31 21:18:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:19:16,718 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '19%'
+2024-10-31 21:19:16,720 - INFO - === Active Process Status Report (2024-10-31 21:19:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:20:16,855 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '32%'
+2024-10-31 21:20:16,857 - INFO - === Active Process Status Report (2024-10-31 21:20:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:21:16,992 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '45%'
+2024-10-31 21:21:16,994 - INFO - === Active Process Status Report (2024-10-31 21:21:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:22:17,135 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '57%'
+2024-10-31 21:22:17,137 - INFO - === Active Process Status Report (2024-10-31 21:22:16) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:23:17,280 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '69%'
+2024-10-31 21:23:17,282 - INFO - === Active Process Status Report (2024-10-31 21:23:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:24:17,422 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '83%'
+2024-10-31 21:24:17,424 - INFO - === Active Process Status Report (2024-10-31 21:24:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:25:17,569 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '96%'
+2024-10-31 21:25:17,571 - INFO - === Active Process Status Report (2024-10-31 21:25:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:26:17,710 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:26:17,711 - INFO - === Active Process Status Report (2024-10-31 21:26:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:27:17,838 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:27:17,840 - INFO - === Active Process Status Report (2024-10-31 21:27:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:28:17,983 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:28:17,984 - INFO - === Active Process Status Report (2024-10-31 21:28:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:29:18,124 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '8%'
+2024-10-31 21:29:18,125 - INFO - === Active Process Status Report (2024-10-31 21:29:17) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:30:18,261 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:30:18,263 - INFO - === Active Process Status Report (2024-10-31 21:30:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:31:18,404 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:31:18,406 - INFO - === Active Process Status Report (2024-10-31 21:31:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:32:18,547 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '0%'
+2024-10-31 21:32:18,549 - INFO - === Active Process Status Report (2024-10-31 21:32:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:33:18,687 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '14%'
+2024-10-31 21:33:18,689 - INFO - === Active Process Status Report (2024-10-31 21:33:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:34:18,832 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '27%'
+2024-10-31 21:34:18,834 - INFO - === Active Process Status Report (2024-10-31 21:34:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:35:18,957 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '40%'
+2024-10-31 21:35:18,958 - INFO - === Active Process Status Report (2024-10-31 21:35:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:36:19,095 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '52%'
+2024-10-31 21:36:19,097 - INFO - === Active Process Status Report (2024-10-31 21:36:18) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:37:19,244 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '65%'
+2024-10-31 21:37:19,247 - INFO - === Active Process Status Report (2024-10-31 21:37:19) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:38:19,404 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '79%'
+2024-10-31 21:38:19,406 - INFO - === Active Process Status Report (2024-10-31 21:38:19) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:39:19,548 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '92%'
+2024-10-31 21:39:19,551 - INFO - === Active Process Status Report (2024-10-31 21:39:19) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:40:19,704 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:40:19,705 - INFO - === Active Process Status Report (2024-10-31 21:40:19) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:41:19,839 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:41:19,841 - INFO - === Active Process Status Report (2024-10-31 21:41:19) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:42:19,998 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:42:19,999 - INFO - === Active Process Status Report (2024-10-31 21:42:19) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:43:20,131 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:43:20,133 - INFO - === Active Process Status Report (2024-10-31 21:43:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:44:20,271 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:44:20,273 - INFO - === Active Process Status Report (2024-10-31 21:44:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:45:20,448 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:45:20,450 - INFO - === Active Process Status Report (2024-10-31 21:45:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:46:20,580 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:46:20,582 - INFO - === Active Process Status Report (2024-10-31 21:46:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:47:20,721 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '12%'
+2024-10-31 21:47:20,723 - INFO - === Active Process Status Report (2024-10-31 21:47:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:48:20,859 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '26%'
+2024-10-31 21:48:20,861 - INFO - === Active Process Status Report (2024-10-31 21:48:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:49:20,983 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '40%'
+2024-10-31 21:49:20,984 - INFO - === Active Process Status Report (2024-10-31 21:49:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:50:21,115 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '53%'
+2024-10-31 21:50:21,118 - INFO - === Active Process Status Report (2024-10-31 21:50:20) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:51:21,256 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '66%'
+2024-10-31 21:51:21,258 - INFO - === Active Process Status Report (2024-10-31 21:51:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:52:21,406 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '80%'
+2024-10-31 21:52:21,408 - INFO - === Active Process Status Report (2024-10-31 21:52:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:53:21,548 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '94%'
+2024-10-31 21:53:21,549 - INFO - === Active Process Status Report (2024-10-31 21:53:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:54:21,693 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:54:21,695 - INFO - === Active Process Status Report (2024-10-31 21:54:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:55:21,838 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:55:21,839 - INFO - === Active Process Status Report (2024-10-31 21:55:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:56:21,968 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:56:21,970 - INFO - === Active Process Status Report (2024-10-31 21:56:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:57:22,120 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '9%'
+2024-10-31 21:57:22,122 - INFO - === Active Process Status Report (2024-10-31 21:57:21) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:58:22,256 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '10%'
+2024-10-31 21:58:22,258 - INFO - === Active Process Status Report (2024-10-31 21:58:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 21:59:22,391 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '10%'
+2024-10-31 21:59:22,393 - INFO - === Active Process Status Report (2024-10-31 21:59:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:00:22,535 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '3%'
+2024-10-31 22:00:22,538 - INFO - === Active Process Status Report (2024-10-31 22:00:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:01:22,687 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '17%'
+2024-10-31 22:01:22,689 - INFO - === Active Process Status Report (2024-10-31 22:01:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:02:22,830 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '31%'
+2024-10-31 22:02:22,832 - INFO - === Active Process Status Report (2024-10-31 22:02:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:03:22,969 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '44%'
+2024-10-31 22:03:22,971 - INFO - === Active Process Status Report (2024-10-31 22:03:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:04:23,109 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '57%'
+2024-10-31 22:04:23,111 - INFO - === Active Process Status Report (2024-10-31 22:04:22) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:05:23,252 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '70%'
+2024-10-31 22:05:23,254 - INFO - === Active Process Status Report (2024-10-31 22:05:23) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:06:23,405 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '84%'
+2024-10-31 22:06:23,407 - INFO - === Active Process Status Report (2024-10-31 22:06:23) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:07:23,555 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '98%'
+2024-10-31 22:07:23,557 - INFO - === Active Process Status Report (2024-10-31 22:07:23) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:08:23,693 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '10%'
+2024-10-31 22:08:23,696 - INFO - === Active Process Status Report (2024-10-31 22:08:23) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
+2024-10-31 22:09:23,857 - ERROR - Error parsing GPT-2 progress: invalid literal for int() with base 10: '10%'
+2024-10-31 22:09:23,859 - INFO - === Active Process Status Report (2024-10-31 22:09:23) ===
+
+1. Claude Evaluation:
+   - Process Running: No
+   - Progress: 30/13256 (0.2%)
+   - Average Similarity: 0.5478
+   - Processing Rate: 0.00 items/second
+
+2. GPT-2 Training:
+   - Process Running: Yes
+
+3. DeepSeek Evaluation:
+   - Status: Complete
+   - Results: 30/30 projects processed
+   - Average Similarity: 0.6156
+   - Exact Match Accuracy: 0.00%
+
+=== End Report ===
