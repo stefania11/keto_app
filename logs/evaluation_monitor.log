@@ -1,0 +1,13 @@
+2024-10-31 20:55:52,070 - INFO - Starting evaluation monitoring
+2024-10-31 20:55:52,072 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:55:52,072 - INFO - Total evaluated: 30/30
+2024-10-31 20:55:52,072 - INFO - Average similarity: 0.5495
+2024-10-31 20:56:22,079 - INFO - 
+Claude Evaluation Status:
+2024-10-31 20:56:22,079 - INFO - Total evaluated: 30/30
+2024-10-31 20:56:22,080 - INFO - Average similarity: 0.5495
+2024-10-31 20:56:22,081 - INFO - 
+Gemini Evaluation Status:
+2024-10-31 20:56:22,081 - INFO - Total evaluated: 10/30
+2024-10-31 20:56:22,081 - INFO - Average similarity: 0.5894
