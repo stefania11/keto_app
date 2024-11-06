@@ -1,0 +1,69 @@
+{
+  "model_name": "claude-3-sonnet-20240229",
+  "total_evaluated": 10,
+  "exact_match_accuracy": 0,
+  "avg_semantic_similarity": 0,
+  "start_time": 1730395771.707561,
+  "results": [
+    {
+      "project_id": 0,
+      "response": "blocks:\nsprite: Project\n  project_info: ProjectId,ComplexityScore,TotalBlocks,UniqueTargets,ControlBlocks,CustomBlocks",
+      "semantic_similarity": 0,
+      "processing_time": 0.9463624954223633
+    },
+    {
+      "project_id": 1,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]",
+      "semantic_similarity": 0,
+      "processing_time": 3.194678783416748
+    },
+    {
+      "project_id": 2,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_pointindirection: [90]\n  motion_glidesecstoxy: [1, 50, 50]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_switchcostumeto: [costume1]\n  looks_switchcostumeto: [costume2]\n  looks_nextcostume: []",
+      "semantic_similarity": 0,
+      "processing_time": 6.565133571624756
+    },
+    {
+      "project_id": 3,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_repeat: [360]\n    motion_turnright: [1]\n    motion_movensteps: [1]\n  motion_pointindirection: [90]\n  motion_movenditsteps: [200]",
+      "semantic_similarity": 0,
+      "processing_time": 9.143067598342896
+    },
+    {
+      "project_id": 4,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_say: [Hello!]\n  looks_thinkfor: [2]\n  looks_think: [Hmm...]",
+      "semantic_similarity": 0,
+      "processing_time": 12.31701922416687
+    },
+    {
+      "project_id": 5,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_repeat: [360]\n    motion_turnright: [1]\n    motion_movensteps: [1]\n  motion_pointindirection: [90]\n  motion_movenditsteps: [200]",
+      "semantic_similarity": 0,
+      "processing_time": 14.905112504959106
+    },
+    {
+      "project_id": 6,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_wait: [1]",
+      "semantic_similarity": 0,
+      "processing_time": 17.220372438430786
+    },
+    {
+      "project_id": 7,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_say: [Hello!]\n  looks_thinkfor: [2, Hello there!]",
+      "semantic_similarity": 0,
+      "processing_time": 20.031976222991943
+    },
+    {
+      "project_id": 8,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  control_wait: [1]",
+      "semantic_similarity": 0,
+      "processing_time": 22.50179672241211
+    },
+    {
+      "project_id": 9,
+      "response": "blocks:\nsprite: Sprite1\n  event_whenflagclicked: []\n  motion_movensteps: [10]\n  motion_turnright: [15]\n  control_wait: [1]\n  control_repeat: [10]\n    motion_turnleft: [15]\n    motion_movensteps: [10]\n  control_repeat: [10]\n    motion_turnright: [15]\n    motion_movensteps: [10]\n  motion_turnleft: [180]\nsprite: Sprite2\n  event_whengreenflagclicked: []\n  looks_say: [Hello!]\n  looks_thinkforsecs: [I am thinking...]\n  looks_think: [Hmm...]",
+      "semantic_similarity": 0,
+      "processing_time": 25.850738286972046
+    }
+  ]
+}

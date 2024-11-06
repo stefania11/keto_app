@@ -1,0 +1,306 @@
+nohup: ignoring input
+2024-10-31 20:06:50,006 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.21it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.20it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.21it/s]
+2024-10-31 20:06:50,266 - INFO - Calculated similarity: 0.5232
+2024-10-31 20:06:52,270 - INFO - Evaluating test case 7/30
+2024-10-31 20:06:55,686 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.15it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.14it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.78it/s]
+2024-10-31 20:06:55,988 - INFO - Calculated similarity: 0.5454
+2024-10-31 20:06:57,140 - INFO - Starting Claude evaluation with 30 test cases
+2024-10-31 20:06:57,140 - INFO - Loading test data...
+2024-10-31 20:06:57,140 - INFO - Loaded 30 test cases
+2024-10-31 20:06:57,140 - INFO - Using 30 test cases
+2024-10-31 20:06:57,195 - INFO - Use pytorch device_name: cpu
+2024-10-31 20:06:57,195 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-31 20:06:57,989 - INFO - Evaluating test case 8/30
+2024-10-31 20:06:58,897 - INFO - Initialized Claude evaluator with similarity model
+2024-10-31 20:06:58,897 - INFO - Evaluating test case 1/30
+2024-10-31 20:07:01,535 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-10-31 20:07:01,546 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.12it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.05it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.76it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.76it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.37it/s]
+2024-10-31 20:07:01,887 - INFO - Calculated similarity: 0.4865
+Batches: 100%|██████████| 1/1 [00:00<00:00, 10.02it/s]
+2024-10-31 20:07:01,905 - INFO - Calculated similarity: 0.5839
+2024-10-31 20:07:03,890 - INFO - Evaluating test case 2/30
+2024-10-31 20:07:03,906 - INFO - Evaluating test case 9/30
+2024-10-31 20:07:05,521 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.93it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.84it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.61it/s]
+2024-10-31 20:07:05,900 - INFO - Calculated similarity: 0.4762
+2024-10-31 20:07:07,690 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]2024-10-31 20:07:07,902 - INFO - Evaluating test case 3/30
+Batches: 100%|██████████| 1/1 [00:00<00:00,  3.46it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.45it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.51it/s]
+2024-10-31 20:07:08,059 - INFO - Calculated similarity: 0.5300
+2024-10-31 20:07:10,059 - INFO - Evaluating test case 10/30
+2024-10-31 20:07:10,837 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.89it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.88it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.42it/s]
+2024-10-31 20:07:11,066 - INFO - Calculated similarity: 0.4950
+2024-10-31 20:07:12,426 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.27it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.25it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.09it/s]
+2024-10-31 20:07:12,663 - INFO - Calculated similarity: 0.5411
+2024-10-31 20:07:12,664 - INFO - Saved results to src/evaluation/results/claude_evaluation_intermediate_1730405232.json
+2024-10-31 20:07:12,664 - INFO - Total evaluated: 10
+2024-10-31 20:07:12,664 - INFO - Average semantic similarity: 0.5354
+2024-10-31 20:07:13,066 - INFO - Evaluating test case 4/30
+2024-10-31 20:07:14,665 - INFO - Evaluating test case 11/30
+2024-10-31 20:07:16,042 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.92it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.90it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.66it/s]
+2024-10-31 20:07:16,269 - INFO - Calculated similarity: 0.5415
+2024-10-31 20:07:17,933 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.80it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.79it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.61it/s]
+2024-10-31 20:07:18,143 - INFO - Calculated similarity: 0.5582
+2024-10-31 20:07:18,269 - INFO - Evaluating test case 5/30
+2024-10-31 20:07:20,143 - INFO - Evaluating test case 12/30
+2024-10-31 20:07:21,539 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.87it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.85it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.93it/s]
+2024-10-31 20:07:21,778 - INFO - Calculated similarity: 0.5709
+2024-10-31 20:07:22,926 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.15it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.13it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.45it/s]
+2024-10-31 20:07:23,140 - INFO - Calculated similarity: 0.5292
+2024-10-31 20:07:23,778 - INFO - Evaluating test case 6/30
+2024-10-31 20:07:25,140 - INFO - Evaluating test case 13/30
+2024-10-31 20:07:26,909 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.38it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.37it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 14.39it/s]
+2024-10-31 20:07:27,149 - INFO - Calculated similarity: 0.5188
+2024-10-31 20:07:27,282 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.57it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.56it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 14.75it/s]
+2024-10-31 20:07:27,515 - INFO - Calculated similarity: 0.4898
+2024-10-31 20:07:29,150 - INFO - Evaluating test case 7/30
+2024-10-31 20:07:29,515 - INFO - Evaluating test case 14/30
+2024-10-31 20:07:32,855 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.01it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.00it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.42it/s]
+2024-10-31 20:07:33,071 - INFO - Calculated similarity: 0.5442
+2024-10-31 20:07:33,127 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.98it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.93it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.19it/s]
+2024-10-31 20:07:33,346 - INFO - Calculated similarity: 0.6016
+2024-10-31 20:07:35,071 - INFO - Evaluating test case 15/30
+2024-10-31 20:07:35,346 - INFO - Evaluating test case 8/30
+2024-10-31 20:07:37,479 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.99it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.97it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.60it/s]
+2024-10-31 20:07:37,696 - INFO - Calculated similarity: 0.5662
+2024-10-31 20:07:38,173 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.85it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.83it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.95it/s]
+2024-10-31 20:07:38,400 - INFO - Calculated similarity: 0.4938
+2024-10-31 20:07:39,696 - INFO - Evaluating test case 16/30
+2024-10-31 20:07:40,401 - INFO - Evaluating test case 9/30
+2024-10-31 20:07:41,718 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.55it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.52it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.36it/s]
+2024-10-31 20:07:41,891 - INFO - Calculated similarity: 0.4837
+2024-10-31 20:07:43,132 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.80it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.78it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.17it/s]
+2024-10-31 20:07:43,347 - INFO - Calculated similarity: 0.5420
+2024-10-31 20:07:43,891 - INFO - Evaluating test case 17/30
+2024-10-31 20:07:45,348 - INFO - Evaluating test case 10/30
+2024-10-31 20:07:46,156 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.03it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.02it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.82it/s]
+2024-10-31 20:07:46,361 - INFO - Calculated similarity: 0.5083
+2024-10-31 20:07:48,361 - INFO - Evaluating test case 18/30
+2024-10-31 20:07:48,810 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.42it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.42it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.54it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.51it/s]
+2024-10-31 20:07:49,150 - INFO - Calculated similarity: 0.5830
+2024-10-31 20:07:49,151 - INFO - Saved results to src/evaluation/results/claude_evaluation_results_1730405269.json
+2024-10-31 20:07:49,151 - INFO - Total evaluated: 10
+2024-10-31 20:07:49,151 - INFO - Average semantic similarity: 0.5309
+2024-10-31 20:07:51,152 - INFO - Evaluating test case 11/30
+2024-10-31 20:07:51,562 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.48it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  5.47it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 11.00it/s]
+2024-10-31 20:07:51,851 - INFO - Calculated similarity: 0.5424
+2024-10-31 20:07:53,852 - INFO - Evaluating test case 19/30
+2024-10-31 20:07:54,033 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.76it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.74it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 10.69it/s]
+2024-10-31 20:07:54,285 - INFO - Calculated similarity: 0.5600
+2024-10-31 20:07:56,286 - INFO - Evaluating test case 12/30
+2024-10-31 20:07:57,614 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.98it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.97it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.90it/s]
+2024-10-31 20:07:57,829 - INFO - Calculated similarity: 0.5988
+2024-10-31 20:07:59,521 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.00it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.99it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.95it/s]
+2024-10-31 20:07:59,735 - INFO - Calculated similarity: 0.5420
+2024-10-31 20:07:59,829 - INFO - Evaluating test case 20/30
+2024-10-31 20:08:01,735 - INFO - Evaluating test case 13/30
+2024-10-31 20:08:03,015 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.92it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.90it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.94it/s]
+2024-10-31 20:08:03,225 - INFO - Calculated similarity: 0.5567
+2024-10-31 20:08:03,227 - INFO - Saved results to src/evaluation/results/claude_evaluation_intermediate_1730405283.json
+2024-10-31 20:08:03,227 - INFO - Total evaluated: 20
+2024-10-31 20:08:03,227 - INFO - Average semantic similarity: 0.5366
+2024-10-31 20:08:04,209 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.99it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.98it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.51it/s]
+2024-10-31 20:08:04,426 - INFO - Calculated similarity: 0.5057
+2024-10-31 20:08:05,227 - INFO - Evaluating test case 21/30
+2024-10-31 20:08:06,427 - INFO - Evaluating test case 14/30
+2024-10-31 20:08:08,445 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.82it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.81it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.10it/s]
+2024-10-31 20:08:08,660 - INFO - Calculated similarity: 0.6209
+2024-10-31 20:08:10,110 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.88it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.87it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.64it/s]
+2024-10-31 20:08:10,329 - INFO - Calculated similarity: 0.5739
+2024-10-31 20:08:10,660 - INFO - Evaluating test case 22/30
+2024-10-31 20:08:12,330 - INFO - Evaluating test case 15/30
+2024-10-31 20:08:13,102 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.30it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.29it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.49it/s]
+2024-10-31 20:08:13,336 - INFO - Calculated similarity: 0.5598
+2024-10-31 20:08:14,662 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.55it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.54it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.47it/s]
+2024-10-31 20:08:14,881 - INFO - Calculated similarity: 0.5563
+2024-10-31 20:08:15,336 - INFO - Evaluating test case 23/30
+2024-10-31 20:08:16,882 - INFO - Evaluating test case 16/30
+2024-10-31 20:08:17,394 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.19it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.17it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.51it/s]
+2024-10-31 20:08:17,620 - INFO - Calculated similarity: 0.5035
+2024-10-31 20:08:19,201 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.08it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.06it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.60it/s]
+2024-10-31 20:08:19,415 - INFO - Calculated similarity: 0.5065
+2024-10-31 20:08:19,621 - INFO - Evaluating test case 24/30
+2024-10-31 20:08:21,416 - INFO - Evaluating test case 17/30
+2024-10-31 20:08:22,285 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.66it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.64it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.55it/s]
+2024-10-31 20:08:22,501 - INFO - Calculated similarity: 0.5180
+2024-10-31 20:08:24,432 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]2024-10-31 20:08:24,502 - INFO - Evaluating test case 25/30
+Batches: 100%|██████████| 1/1 [00:00<00:00,  6.76it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.74it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.35it/s]
+2024-10-31 20:08:24,647 - INFO - Calculated similarity: 0.5291
+2024-10-31 20:08:26,222 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.73it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.70it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 18.89it/s]
+2024-10-31 20:08:26,387 - INFO - Calculated similarity: 0.5364
+2024-10-31 20:08:26,647 - INFO - Evaluating test case 18/30
+2024-10-31 20:08:28,387 - INFO - Evaluating test case 26/30
+2024-10-31 20:08:28,754 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.07it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.05it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.43it/s]
+2024-10-31 20:08:28,985 - INFO - Calculated similarity: 0.5333
+2024-10-31 20:08:30,978 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]2024-10-31 20:08:30,986 - INFO - Evaluating test case 19/30
+Batches: 100%|██████████| 1/1 [00:00<00:00,  6.82it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.80it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.64it/s]
+2024-10-31 20:08:31,207 - INFO - Calculated similarity: 0.5624
+2024-10-31 20:08:33,207 - INFO - Evaluating test case 27/30
+2024-10-31 20:08:33,698 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.81it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.79it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.35it/s]
+2024-10-31 20:08:33,915 - INFO - Calculated similarity: 0.5694
+2024-10-31 20:08:35,915 - INFO - Evaluating test case 20/30
+2024-10-31 20:08:36,036 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.76it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.75it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.89it/s]
+2024-10-31 20:08:36,248 - INFO - Calculated similarity: 0.6473
+2024-10-31 20:08:38,239 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]2024-10-31 20:08:38,249 - INFO - Evaluating test case 28/30
+Batches: 100%|██████████| 1/1 [00:00<00:00,  6.51it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.50it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.84it/s]
+2024-10-31 20:08:38,469 - INFO - Calculated similarity: 0.5706
+2024-10-31 20:08:38,470 - INFO - Saved results to src/evaluation/results/claude_evaluation_results_1730405318.json
+2024-10-31 20:08:38,470 - INFO - Total evaluated: 20
+2024-10-31 20:08:38,471 - INFO - Average semantic similarity: 0.5378
+2024-10-31 20:08:40,247 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.03it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  8.01it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.53it/s]
+2024-10-31 20:08:40,442 - INFO - Calculated similarity: 0.5389
+2024-10-31 20:08:40,471 - INFO - Evaluating test case 21/30
+2024-10-31 20:08:42,446 - INFO - Evaluating test case 29/30
+2024-10-31 20:08:44,198 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.74it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.72it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.47it/s]
+2024-10-31 20:08:44,420 - INFO - Calculated similarity: 0.6036
+2024-10-31 20:08:45,215 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.78it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.77it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.87it/s]
+2024-10-31 20:08:45,431 - INFO - Calculated similarity: 0.6242
+2024-10-31 20:08:46,420 - INFO - Evaluating test case 22/30
+2024-10-31 20:08:47,431 - INFO - Evaluating test case 30/30
+2024-10-31 20:08:49,714 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.19it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.17it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 13.22it/s]
+2024-10-31 20:08:49,939 - INFO - Calculated similarity: 0.5918
+2024-10-31 20:08:49,940 - INFO - Saved results to src/evaluation/results/claude_evaluation_intermediate_1730405329.json
+2024-10-31 20:08:49,940 - INFO - Total evaluated: 30
+2024-10-31 20:08:49,941 - INFO - Average semantic similarity: 0.5478
+2024-10-31 20:08:51,665 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.83it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.81it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.37it/s]
+2024-10-31 20:08:51,882 - INFO - Calculated similarity: 0.5741
+2024-10-31 20:08:51,942 - INFO - Saved results to src/evaluation/results/claude_evaluation_intermediate_1730405331.json
+2024-10-31 20:08:51,942 - INFO - Total evaluated: 30
+2024-10-31 20:08:51,942 - INFO - Average semantic similarity: 0.5478
+2024-10-31 20:08:53,882 - INFO - Evaluating test case 23/30
+2024-10-31 20:08:57,003 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.58it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.57it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.70it/s]
+2024-10-31 20:08:57,221 - INFO - Calculated similarity: 0.5718
+2024-10-31 20:08:59,221 - INFO - Evaluating test case 24/30
+2024-10-31 20:09:02,820 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.77it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.76it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.84it/s]
+2024-10-31 20:09:03,043 - INFO - Calculated similarity: 0.5451
+2024-10-31 20:09:05,043 - INFO - Evaluating test case 25/30
+2024-10-31 20:09:07,262 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.93it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.91it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.47it/s]
+2024-10-31 20:09:07,458 - INFO - Calculated similarity: 0.5564
+2024-10-31 20:09:09,458 - INFO - Evaluating test case 26/30
+2024-10-31 20:09:11,806 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.67it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.66it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 14.39it/s]
+2024-10-31 20:09:12,035 - INFO - Calculated similarity: 0.4595
+2024-10-31 20:09:14,035 - INFO - Evaluating test case 27/30
+2024-10-31 20:09:16,254 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.45it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.44it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 17.57it/s]
+2024-10-31 20:09:16,454 - INFO - Calculated similarity: 0.6212
+2024-10-31 20:09:18,458 - INFO - Evaluating test case 28/30
+2024-10-31 20:09:21,949 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.86it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.84it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.29it/s]
+2024-10-31 20:09:22,165 - INFO - Calculated similarity: 0.5631
+2024-10-31 20:09:24,166 - INFO - Evaluating test case 29/30
+2024-10-31 20:09:26,701 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.71it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.69it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 15.65it/s]
+2024-10-31 20:09:26,923 - INFO - Calculated similarity: 0.5847
+2024-10-31 20:09:28,924 - INFO - Evaluating test case 30/30
+2024-10-31 20:09:32,464 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.67it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  6.66it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 12.20it/s]
+2024-10-31 20:09:32,705 - INFO - Calculated similarity: 0.6496
+2024-10-31 20:09:32,707 - INFO - Saved results to src/evaluation/results/claude_evaluation_results_1730405372.json
+2024-10-31 20:09:32,707 - INFO - Total evaluated: 30
+2024-10-31 20:09:32,707 - INFO - Average semantic similarity: 0.5495
+2024-10-31 20:09:34,709 - INFO - Saved results to src/evaluation/results/claude_evaluation_results_1730405374.json
+2024-10-31 20:09:34,709 - INFO - Total evaluated: 30
+2024-10-31 20:09:34,709 - INFO - Average semantic similarity: 0.5495

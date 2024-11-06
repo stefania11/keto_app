@@ -1,0 +1,102 @@
+nohup: ignoring input
+2024-10-31 20:51:50,150 - INFO - Starting Gemini evaluation with 30 test cases
+2024-10-31 20:51:50,150 - INFO - Loading test data...
+2024-10-31 20:51:50,151 - INFO - Loaded 30 test cases
+2024-10-31 20:51:50,151 - INFO - Using 30 test cases
+2024-10-31 20:51:50,151 - ERROR - Fatal error in main: Gemini API key not found
+Traceback (most recent call last):
+  File "/home/ubuntu/gpto_scratch_finetune/src/evaluation/evaluate_gemini.py", line 109, in main
+    evaluator = GeminiEvaluator()
+                ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/gpto_scratch_finetune/src/evaluation/evaluate_gemini.py", line 18, in __init__
+    raise ValueError("Gemini API key not found")
+ValueError: Gemini API key not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/gpto_scratch_finetune/src/evaluation/evaluate_gemini.py", line 140, in <module>
+    main()
+  File "/home/ubuntu/gpto_scratch_finetune/src/evaluation/evaluate_gemini.py", line 135, in main
+    if results:
+       ^^^^^^^
+UnboundLocalError: cannot access local variable 'results' where it is not associated with a value
+2024-10-31 20:55:04,032 - INFO - Starting Gemini evaluation with 30 test cases
+2024-10-31 20:55:04,033 - INFO - Loading test data...
+2024-10-31 20:55:04,034 - INFO - Loaded 30 test cases
+2024-10-31 20:55:04,034 - INFO - Using 30 test cases
+2024-10-31 20:55:04,040 - INFO - Use pytorch device_name: cpu
+2024-10-31 20:55:04,040 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2024-10-31 20:55:05,457 - INFO - Initialized Gemini evaluator with similarity model
+2024-10-31 20:55:05,457 - INFO - Evaluating test case 1/30
+2024-10-31 20:55:09,330 - INFO - Calculated similarity: 0.4010
+2024-10-31 20:55:11,330 - INFO - Evaluating test case 2/30
+2024-10-31 20:55:14,024 - INFO - Calculated similarity: 0.6991
+2024-10-31 20:55:16,025 - INFO - Evaluating test case 3/30
+2024-10-31 20:55:19,937 - INFO - Calculated similarity: 0.5236
+2024-10-31 20:55:21,937 - INFO - Evaluating test case 4/30
+2024-10-31 20:55:25,646 - INFO - Calculated similarity: 0.5084
+2024-10-31 20:55:27,646 - INFO - Evaluating test case 5/30
+2024-10-31 20:55:30,360 - INFO - Calculated similarity: 0.6744
+2024-10-31 20:55:32,361 - INFO - Evaluating test case 6/30
+2024-10-31 20:55:35,226 - INFO - Calculated similarity: 0.6593
+2024-10-31 20:55:37,227 - INFO - Evaluating test case 7/30
+2024-10-31 20:55:40,350 - INFO - Calculated similarity: 0.5531
+2024-10-31 20:55:42,351 - INFO - Evaluating test case 8/30
+2024-10-31 20:55:45,780 - INFO - Calculated similarity: 0.6590
+2024-10-31 20:55:47,781 - INFO - Evaluating test case 9/30
+2024-10-31 20:55:51,081 - INFO - Calculated similarity: 0.5964
+2024-10-31 20:55:53,082 - INFO - Evaluating test case 10/30
+2024-10-31 20:55:55,497 - INFO - Calculated similarity: 0.6193
+2024-10-31 20:55:55,498 - INFO - Saved results to src/evaluation/results/gemini_evaluation_results_1730408155.json
+2024-10-31 20:55:55,498 - INFO - Total evaluated: 10
+2024-10-31 20:55:55,499 - INFO - Average semantic similarity: 0.5894
+2024-10-31 20:55:57,499 - INFO - Evaluating test case 11/30
+2024-10-31 20:56:00,893 - INFO - Calculated similarity: 0.6328
+2024-10-31 20:56:02,894 - INFO - Evaluating test case 12/30
+2024-10-31 20:56:07,208 - INFO - Calculated similarity: 0.5665
+2024-10-31 20:56:09,209 - INFO - Evaluating test case 13/30
+2024-10-31 20:56:12,616 - INFO - Calculated similarity: 0.6254
+2024-10-31 20:56:14,616 - INFO - Evaluating test case 14/30
+2024-10-31 20:56:17,708 - INFO - Calculated similarity: 0.6340
+2024-10-31 20:56:19,708 - INFO - Evaluating test case 15/30
+2024-10-31 20:56:23,756 - INFO - Calculated similarity: 0.6469
+2024-10-31 20:56:25,758 - INFO - Evaluating test case 16/30
+2024-10-31 20:56:28,375 - INFO - Calculated similarity: 0.6152
+2024-10-31 20:56:30,378 - INFO - Evaluating test case 17/30
+2024-10-31 20:56:33,784 - INFO - Calculated similarity: 0.6314
+2024-10-31 20:56:35,786 - INFO - Evaluating test case 18/30
+2024-10-31 20:56:38,353 - INFO - Calculated similarity: 0.6170
+2024-10-31 20:56:40,354 - INFO - Evaluating test case 19/30
+2024-10-31 20:56:44,253 - INFO - Calculated similarity: 0.5612
+2024-10-31 20:56:46,254 - INFO - Evaluating test case 20/30
+2024-10-31 20:56:49,614 - INFO - Calculated similarity: 0.5403
+2024-10-31 20:56:49,615 - INFO - Saved results to src/evaluation/results/gemini_evaluation_results_1730408209.json
+2024-10-31 20:56:49,616 - INFO - Total evaluated: 20
+2024-10-31 20:56:49,617 - INFO - Average semantic similarity: 0.5982
+2024-10-31 20:56:51,618 - INFO - Evaluating test case 21/30
+2024-10-31 20:56:54,614 - INFO - Calculated similarity: 0.5905
+2024-10-31 20:56:56,615 - INFO - Evaluating test case 22/30
+2024-10-31 20:56:59,674 - INFO - Calculated similarity: 0.6122
+2024-10-31 20:57:01,675 - INFO - Evaluating test case 23/30
+2024-10-31 20:57:05,105 - INFO - Calculated similarity: 0.6791
+2024-10-31 20:57:07,107 - INFO - Evaluating test case 24/30
+2024-10-31 20:57:10,096 - INFO - Calculated similarity: 0.6173
+2024-10-31 20:57:12,097 - INFO - Evaluating test case 25/30
+2024-10-31 20:57:15,186 - INFO - Calculated similarity: 0.6093
+2024-10-31 20:57:17,187 - INFO - Evaluating test case 26/30
+2024-10-31 20:57:20,450 - INFO - Calculated similarity: 0.5964
+2024-10-31 20:57:22,450 - INFO - Evaluating test case 27/30
+2024-10-31 20:57:35,612 - INFO - Calculated similarity: 0.5342
+2024-10-31 20:57:37,612 - INFO - Evaluating test case 28/30
+2024-10-31 20:57:41,134 - INFO - Calculated similarity: 0.5308
+2024-10-31 20:57:43,135 - INFO - Evaluating test case 29/30
+2024-10-31 20:57:46,486 - INFO - Calculated similarity: 0.6343
+2024-10-31 20:57:48,487 - INFO - Evaluating test case 30/30
+2024-10-31 20:57:52,784 - INFO - Calculated similarity: 0.5729
+2024-10-31 20:57:52,786 - INFO - Saved results to src/evaluation/results/gemini_evaluation_results_1730408272.json
+2024-10-31 20:57:52,787 - INFO - Total evaluated: 30
+2024-10-31 20:57:52,788 - INFO - Average semantic similarity: 0.5980
+2024-10-31 20:57:54,789 - INFO - Saved results to src/evaluation/results/gemini_evaluation_results_1730408274.json
+2024-10-31 20:57:54,790 - INFO - Total evaluated: 30
+2024-10-31 20:57:54,790 - INFO - Average semantic similarity: 0.5980
